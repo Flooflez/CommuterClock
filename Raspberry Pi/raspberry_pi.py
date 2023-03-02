@@ -5,15 +5,6 @@ import googlemaps
 from datetime import datetime
 
 #
-# Init API
-#
-
-cred = credentials.Certificate("Private Key/commuter-clock-firebase-adminsdk-q5p6m-d316723468.json")
-firebase_admin.initialize_app(cred)
-
-gmaps = googlemaps.Client(key='AIzaSyCnGQ5oITGwl8B9TJckesr5X__rCnJ3klI')
-
-#
 # Constants
 #
 
@@ -45,9 +36,17 @@ uptown_downtown_dictionary = {
     "Jamaica-179 St": 1,
 }
 
+
 #
 # Functions
 #
+
+def get_user_id():
+    reader = open("user_id.txt", "r")
+    user_id = reader.read();
+    reader.close()
+    return user_id
+
 
 # 1 for uptown, 0 for downtown, -1 for blank
 def check_uptown_downtown(headsign):
@@ -56,24 +55,7 @@ def check_uptown_downtown(headsign):
     return -1
 
 
-user_id = open("user_id.txt", "r").read();
-db = firestore.client()
-doc_ref = db.collection(u'settings').document(user_id)
-doc = doc_ref.get()
-
-if doc.exists:
-    doc_dictionary = doc.to_dict()
-
-    wait_seconds = doc_dictionary['wait_seconds']
-    destination = doc_dictionary['destination']
-    origin = doc_dictionary['origin']
-    start_hour = doc_dictionary['start_hour']
-    end_hour = doc_dictionary['end_hour']
-else:
-    raise Exception("User ID does not exist")
-
-
-def get_line_info():
+def get_line_info(origin, destination, gmaps):
     directions_result = gmaps.directions(origin, destination, mode="transit", departure_time=datetime.now(),
                                          alternatives=False)
     for leg in directions_result[0]['legs']:
@@ -84,11 +66,53 @@ def get_line_info():
                 line = transit_details['line']
                 if line['vehicle']['type'] == 'SUBWAY':
                     minutes = round(
-                        (datetime.now() - datetime.fromtimestamp(arrival_time_Unix)).total_seconds() / 60.0);
+                        ((datetime.fromtimestamp(arrival_time_Unix) - datetime.now()).total_seconds()) / 60.0);
                     direction = check_uptown_downtown(transit_details['headsign'])
                     return line['short_name'], direction, minutes
 
 
-def update_motors():
-    line_num, direction, minutes = get_line_info()
-    pass
+def update_display(origin, destination, gmaps):
+    line_num, direction, minutes = get_line_info(origin, destination, gmaps)
+    print(line_num, direction, minutes)
+
+
+def get_document_data(user_id):
+    db = firestore.client()
+    doc_ref = db.collection(u'settings').document(user_id)
+    doc = doc_ref.get()
+
+    if doc.exists:
+        doc_dictionary = doc.to_dict()
+        wait_seconds = doc_dictionary['wait_seconds']
+        destination = doc_dictionary['destination']
+        origin = doc_dictionary['origin']
+        start_hour = doc_dictionary['start_hour']
+        end_hour = doc_dictionary['end_hour']
+
+        return wait_seconds, destination, origin, start_hour, end_hour
+    else:
+        raise Exception("User ID does not exist")
+
+
+#
+# Init API
+#
+def main():
+    cred = credentials.Certificate("Private Key/commuter-clock-firebase-adminsdk-q5p6m-d316723468.json")
+    firebase_admin.initialize_app(cred)
+
+    gmaps = googlemaps.Client(key='AIzaSyCnGQ5oITGwl8B9TJckesr5X__rCnJ3klI')
+
+    user_id = get_user_id()
+    print(user_id)
+    wait_seconds, destination, origin, start_hour, end_hour = get_document_data(user_id)
+
+    #insert loop:
+    #check button press
+        #get_document_data
+    #update_display(origin, destination, gmaps)
+    #DO NOT CALL update_display UNLESS NECESSARY.
+    #wait
+
+
+main()
