@@ -1,0 +1,1486 @@
+[
+   {
+      "bounds":{
+         "northeast":{
+            "lat":40.7522188,
+            "lng":-73.9768448
+         },
+         "southwest":{
+            "lat":40.7124402,
+            "lng":-74.0049109
+         }
+      },
+      "copyrights":"Map data ©2023 Google",
+      "legs":[
+         {
+            "arrival_time":{
+               "text":"3:02\u202fPM",
+               "time_zone":"America/New_York",
+               "value":1677787338
+            },
+            "departure_time":{
+               "text":"2:51\u202fPM",
+               "time_zone":"America/New_York",
+               "value":1677786671
+            },
+            "distance":{
+               "text":"3.2 mi",
+               "value":5177
+            },
+            "duration":{
+               "text":"11 mins",
+               "value":667
+            },
+            "end_address":"89 E 42nd St, New York, NY 10017, USA",
+            "end_location":{
+               "lat":40.7522188,
+               "lng":-73.9776153
+            },
+            "start_address":"City Hall Park, Broadway &, Chambers St, New York, NY 10007, USA",
+            "start_location":{
+               "lat":40.7126097,
+               "lng":-74.0047836
+            },
+            "steps":[
+               {
+                  "distance":{
+                     "text":"371 ft",
+                     "value":113
+                  },
+                  "duration":{
+                     "text":"2 mins",
+                     "value":103
+                  },
+                  "end_location":{
+                     "lat":40.713066,
+                     "lng":-74.00412800000001
+                  },
+                  "html_instructions":"Walk to Brooklyn Bridge - City Hall",
+                  "polyline":{
+                     "points":"ytnwFz`ubMBDDJDFDEJOACCC?E_@c@KKA??A?A?A@A@CEgAgAJ"
+                  },
+                  "start_location":{
+                     "lat":40.7126097,
+                     "lng":-74.0047836
+                  },
+                  "steps":[
+                     {
+                        "distance":{
+                           "text":"59 ft",
+                           "value":18
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":13
+                        },
+                        "end_location":{
+                           "lat":40.7124402,
+                           "lng":-74.004802
+                        },
+                        "html_instructions":"Head <b>southwest</b> on <b>Centre St</b> toward <b>City Hall Pk Path</b>",
+                        "polyline":{
+                           "points":"ytnwFz`ubMBDDJDFDEJO"
+                        },
+                        "start_location":{
+                           "lat":40.7126097,
+                           "lng":-74.0047836
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"23 ft",
+                           "value":7
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":15
+                        },
+                        "end_location":{
+                           "lat":40.7124744,
+                           "lng":-74.004758
+                        },
+                        "html_instructions":"Cross the road",
+                        "polyline":{
+                           "points":"wsnwF~`ubMACCC"
+                        },
+                        "start_location":{
+                           "lat":40.7124402,
+                           "lng":-74.004802
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"26 ft",
+                           "value":8
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":6
+                        },
+                        "end_location":{
+                           "lat":40.7124698,
+                           "lng":-74.0047325
+                        },
+                        "html_instructions":"Turn <b>right</b> onto <b>Brooklyn Bridge Promenade</b>",
+                        "maneuver":"turn-right",
+                        "polyline":{
+                           "points":"}snwFv`ubM?E"
+                        },
+                        "start_location":{
+                           "lat":40.7124744,
+                           "lng":-74.004758
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"118 ft",
+                           "value":36
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":25
+                        },
+                        "end_location":{
+                           "lat":40.7126883,
+                           "lng":-74.00445049999999
+                        },
+                        "html_instructions":"Turn <b>left</b>",
+                        "maneuver":"turn-left",
+                        "polyline":{
+                           "points":"}snwFp`ubM_@c@KKA??A?A?A@A"
+                        },
+                        "start_location":{
+                           "lat":40.7124698,
+                           "lng":-74.0047325
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"13 ft",
+                           "value":4
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":3
+                        },
+                        "end_location":{
+                           "lat":40.7126823,
+                           "lng":-74.0044343
+                        },
+                        "html_instructions":"Turn <b>right</b>",
+                        "maneuver":"turn-right",
+                        "polyline":{
+                           "points":"iunwFx~tbM@C"
+                        },
+                        "start_location":{
+                           "lat":40.7126883,
+                           "lng":-74.00445049999999
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"131 ft",
+                           "value":40
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":41
+                        },
+                        "end_location":{
+                           "lat":40.713066,
+                           "lng":-74.00412800000001
+                        },
+                        "html_instructions":"Take entrance <span class=\"location\">Centre St & Chambers St at SE corner</span>",
+                        "polyline":{
+                           "points":"munwFl|tbMgAJ"
+                        },
+                        "start_location":{
+                           "lat":40.7127069,
+                           "lng":-74.00407349999999
+                        },
+                        "travel_mode":"WALKING"
+                     }
+                  ],
+                  "travel_mode":"WALKING"
+               },
+               {
+                  "distance":{
+                     "text":"3.1 mi",
+                     "value":4978
+                  },
+                  "duration":{
+                     "text":"8 mins",
+                     "value":480
+                  },
+                  "end_location":{
+                     "lat":40.751778,
+                     "lng":-73.976845
+                  },
+                  "html_instructions":"Subway towards Eastchester-Dyre Av",
+                  "polyline":{
+                     "points":"uwnwFx|tbM{CkCGEGEGEGEICGCIEIAGCIAICKAI?I?K?aDUE?GAE?EAEAEAGAECEAECECCCEAEEECqQuOyFcF_LaJACAAAACAAAAAAACAAAA?AAACC?AACACAAAAACAA?CAAAAAC?C?AAAACAA?yC{@C?ECEACAECCAEACCCCEACCCCECCCECaMoJwGoEyLwJEEIGEGGGGGGGGIEGEGGIEIGIEIEIEKIMGKIKKIIIKIKIKGMGMEMEOEMCOCQAkNwBMAM?M?MAO?O?M@O?Q@O@O@Q@QBQBQBK@I@I?I?K?I?GAIAIAIAIAIAGEIAGCyZiSaSsMyQsLm_@uVEEEECEEEEECECGCGCECECGAIAGAGCIg@uD"
+                  },
+                  "start_location":{
+                     "lat":40.713066,
+                     "lng":-74.00412800000001
+                  },
+                  "transit_details":{
+                     "arrival_stop":{
+                        "location":{
+                           "lat":40.751778,
+                           "lng":-73.976845
+                        },
+                        "name":"Grand Central - 42 St"
+                     },
+                     "arrival_time":{
+                        "text":"3:00\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677787255
+                     },
+                     "departure_stop":{
+                        "location":{
+                           "lat":40.713066,
+                           "lng":-74.00412800000001
+                        },
+                        "name":"Brooklyn Bridge - City Hall"
+                     },
+                     "departure_time":{
+                        "text":"2:52\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677786775
+                     },
+                     "headsign":"Eastchester-Dyre Av",
+                     "headway":180,
+                     "line":{
+                        "agencies":[
+                           {
+                              "name":"MTA New York City Transit",
+                              "phone":"1 (718) 330-1234",
+                              "url":"http://www.mta.info/"
+                           }
+                        ],
+                        "color":"#00933c",
+                        "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/us-ny-mta/5.png",
+                        "name":"5 Line",
+                        "short_name":"5",
+                        "text_color":"#ffffff",
+                        "vehicle":{
+                           "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                           "name":"Subway",
+                           "type":"SUBWAY"
+                        }
+                     },
+                     "num_stops":2
+                  },
+                  "travel_mode":"TRANSIT"
+               },
+               {
+                  "distance":{
+                     "text":"282 ft",
+                     "value":86
+                  },
+                  "duration":{
+                     "text":"1 min",
+                     "value":82
+                  },
+                  "end_location":{
+                     "lat":40.7522188,
+                     "lng":-73.9776153
+                  },
+                  "html_instructions":"Walk to 89 E 42nd St, New York, NY 10017, USA",
+                  "polyline":{
+                     "points":"sivwFfrobMHr@EEGPMh@KXEJAHGHCAYUCAGP"
+                  },
+                  "start_location":{
+                     "lat":40.751778,
+                     "lng":-73.976845
+                  },
+                  "steps":[
+                     {
+                        "distance":{
+                           "text":"69 ft",
+                           "value":21
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":22
+                        },
+                        "end_location":{
+                           "lat":40.75173040000001,
+                           "lng":-73.9770971
+                        },
+                        "html_instructions":"Take exit <span class=\"location\">Park Ave & 42nd St at SE corner</span>",
+                        "polyline":{
+                           "points":"sivwFfrobMHr@"
+                        },
+                        "start_location":{
+                           "lat":40.751778,
+                           "lng":-73.976845
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"213 ft",
+                           "value":65
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":60
+                        },
+                        "end_location":{
+                           "lat":40.7522188,
+                           "lng":-73.9776153
+                        },
+                        "html_instructions":"Head <b>northwest</b> on <b>E 42nd St</b> toward <b>Pershing Square</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                        "polyline":{
+                           "points":"oivwFtsobMGPMh@KXEJAHGHCAYUCAGP"
+                        },
+                        "start_location":{
+                           "lat":40.7517599,
+                           "lng":-73.9770748
+                        },
+                        "travel_mode":"WALKING"
+                     }
+                  ],
+                  "travel_mode":"WALKING"
+               }
+            ],
+            "traffic_speed_entry":[
+
+            ],
+            "via_waypoint":[
+
+            ]
+         }
+      ],
+      "overview_polyline":{
+         "points":"ytnwFz`ubMHPDFDEJOACCIm@q@?A@CCkAgAJcDqCa@Uc@Oi@GU?gDUYEYIUMKIkYyVeLiJIGUMUMoDaAUKQKSMIGaMoJwGoE_M}JOO_@a@Yc@Yi@g@o@m@e@y@Y{OaCw@C}@@cAFaALi@@e@Ee@KQE{n@}a@gr@id@KKSWO[Ia@k@_EHr@EEGPYbAGTGHCA]WGP"
+      },
+      "summary":"",
+      "warnings":[
+         "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypoint_order":[
+
+      ]
+   },
+   {
+      "bounds":{
+         "northeast":{
+            "lat":40.7522188,
+            "lng":-73.9768448
+         },
+         "southwest":{
+            "lat":40.7124402,
+            "lng":-74.0049109
+         }
+      },
+      "copyrights":"Map data ©2023 Google",
+      "legs":[
+         {
+            "arrival_time":{
+               "text":"3:06\u202fPM",
+               "time_zone":"America/New_York",
+               "value":1677787565
+            },
+            "departure_time":{
+               "text":"2:54\u202fPM",
+               "time_zone":"America/New_York",
+               "value":1677786898
+            },
+            "distance":{
+               "text":"3.2 mi",
+               "value":5177
+            },
+            "duration":{
+               "text":"11 mins",
+               "value":667
+            },
+            "end_address":"89 E 42nd St, New York, NY 10017, USA",
+            "end_location":{
+               "lat":40.7522188,
+               "lng":-73.9776153
+            },
+            "start_address":"City Hall Park, Broadway &, Chambers St, New York, NY 10007, USA",
+            "start_location":{
+               "lat":40.7126097,
+               "lng":-74.0047836
+            },
+            "steps":[
+               {
+                  "distance":{
+                     "text":"371 ft",
+                     "value":113
+                  },
+                  "duration":{
+                     "text":"2 mins",
+                     "value":103
+                  },
+                  "end_location":{
+                     "lat":40.713066,
+                     "lng":-74.00412800000001
+                  },
+                  "html_instructions":"Walk to Brooklyn Bridge - City Hall",
+                  "polyline":{
+                     "points":"ytnwFz`ubMBDDJDFDEJOACCC?E_@c@KKA??A?A?A@A@CEgAgAJ"
+                  },
+                  "start_location":{
+                     "lat":40.7126097,
+                     "lng":-74.0047836
+                  },
+                  "steps":[
+                     {
+                        "distance":{
+                           "text":"59 ft",
+                           "value":18
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":13
+                        },
+                        "end_location":{
+                           "lat":40.7124402,
+                           "lng":-74.004802
+                        },
+                        "html_instructions":"Head <b>southwest</b> on <b>Centre St</b> toward <b>City Hall Pk Path</b>",
+                        "polyline":{
+                           "points":"ytnwFz`ubMBDDJDFDEJO"
+                        },
+                        "start_location":{
+                           "lat":40.7126097,
+                           "lng":-74.0047836
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"23 ft",
+                           "value":7
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":15
+                        },
+                        "end_location":{
+                           "lat":40.7124744,
+                           "lng":-74.004758
+                        },
+                        "html_instructions":"Cross the road",
+                        "polyline":{
+                           "points":"wsnwF~`ubMACCC"
+                        },
+                        "start_location":{
+                           "lat":40.7124402,
+                           "lng":-74.004802
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"26 ft",
+                           "value":8
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":6
+                        },
+                        "end_location":{
+                           "lat":40.7124698,
+                           "lng":-74.0047325
+                        },
+                        "html_instructions":"Turn <b>right</b> onto <b>Brooklyn Bridge Promenade</b>",
+                        "maneuver":"turn-right",
+                        "polyline":{
+                           "points":"}snwFv`ubM?E"
+                        },
+                        "start_location":{
+                           "lat":40.7124744,
+                           "lng":-74.004758
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"118 ft",
+                           "value":36
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":25
+                        },
+                        "end_location":{
+                           "lat":40.7126883,
+                           "lng":-74.00445049999999
+                        },
+                        "html_instructions":"Turn <b>left</b>",
+                        "maneuver":"turn-left",
+                        "polyline":{
+                           "points":"}snwFp`ubM_@c@KKA??A?A?A@A"
+                        },
+                        "start_location":{
+                           "lat":40.7124698,
+                           "lng":-74.0047325
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"13 ft",
+                           "value":4
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":3
+                        },
+                        "end_location":{
+                           "lat":40.7126823,
+                           "lng":-74.0044343
+                        },
+                        "html_instructions":"Turn <b>right</b>",
+                        "maneuver":"turn-right",
+                        "polyline":{
+                           "points":"iunwFx~tbM@C"
+                        },
+                        "start_location":{
+                           "lat":40.7126883,
+                           "lng":-74.00445049999999
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"131 ft",
+                           "value":40
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":41
+                        },
+                        "end_location":{
+                           "lat":40.713066,
+                           "lng":-74.00412800000001
+                        },
+                        "html_instructions":"Take entrance <span class=\"location\">Centre St & Chambers St at SE corner</span>",
+                        "polyline":{
+                           "points":"munwFl|tbMgAJ"
+                        },
+                        "start_location":{
+                           "lat":40.7127069,
+                           "lng":-74.00407349999999
+                        },
+                        "travel_mode":"WALKING"
+                     }
+                  ],
+                  "travel_mode":"WALKING"
+               },
+               {
+                  "distance":{
+                     "text":"3.1 mi",
+                     "value":4978
+                  },
+                  "duration":{
+                     "text":"8 mins",
+                     "value":480
+                  },
+                  "end_location":{
+                     "lat":40.751778,
+                     "lng":-73.976845
+                  },
+                  "html_instructions":"Subway towards Woodlawn",
+                  "polyline":{
+                     "points":"uwnwFx|tbM{CkCGEGEGEGEICGCIEIAGCIAICKAI?I?K?aDUE?GAE?EAEAEAGAECEAECECCCEAEEECqQuOyFcF_LaJACAAAACAAAAAAACAAAA?AAACC?AACACAAAAACAA?CAAAAAC?C?AAAACAA?yC{@C?ECEACAECCAEACCCCEACCCCECCCECaMoJwGoEyLwJEEIGEGGGGGGGGIEGEGGIEIGIEIEIEKIMGKIKKIIIKIKIKGMGMEMEOEMCOCQAkNwBMAM?M?MAO?O?M@O?Q@O@O@Q@QBQBQBK@I@I?I?K?I?GAIAIAIAIAIAGEIAGCyZiSaSsMyQsLm_@uVEEEECEEEEECECGCGCECECGAIAGAGCIg@uD"
+                  },
+                  "start_location":{
+                     "lat":40.713066,
+                     "lng":-74.00412800000001
+                  },
+                  "transit_details":{
+                     "arrival_stop":{
+                        "location":{
+                           "lat":40.751778,
+                           "lng":-73.976845
+                        },
+                        "name":"Grand Central - 42 St"
+                     },
+                     "arrival_time":{
+                        "text":"3:04\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677787482
+                     },
+                     "departure_stop":{
+                        "location":{
+                           "lat":40.713066,
+                           "lng":-74.00412800000001
+                        },
+                        "name":"Brooklyn Bridge - City Hall"
+                     },
+                     "departure_time":{
+                        "text":"2:56\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677787002
+                     },
+                     "headsign":"Woodlawn",
+                     "headway":180,
+                     "line":{
+                        "agencies":[
+                           {
+                              "name":"MTA New York City Transit",
+                              "phone":"1 (718) 330-1234",
+                              "url":"http://www.mta.info/"
+                           }
+                        ],
+                        "color":"#00933c",
+                        "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/us-ny-mta/4.png",
+                        "name":"4 Line",
+                        "short_name":"4",
+                        "text_color":"#ffffff",
+                        "vehicle":{
+                           "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                           "name":"Subway",
+                           "type":"SUBWAY"
+                        }
+                     },
+                     "num_stops":2
+                  },
+                  "travel_mode":"TRANSIT"
+               },
+               {
+                  "distance":{
+                     "text":"282 ft",
+                     "value":86
+                  },
+                  "duration":{
+                     "text":"1 min",
+                     "value":82
+                  },
+                  "end_location":{
+                     "lat":40.7522188,
+                     "lng":-73.9776153
+                  },
+                  "html_instructions":"Walk to 89 E 42nd St, New York, NY 10017, USA",
+                  "polyline":{
+                     "points":"sivwFfrobMHr@EEGPMh@KXEJAHGHCAYUCAGP"
+                  },
+                  "start_location":{
+                     "lat":40.751778,
+                     "lng":-73.976845
+                  },
+                  "steps":[
+                     {
+                        "distance":{
+                           "text":"69 ft",
+                           "value":21
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":22
+                        },
+                        "end_location":{
+                           "lat":40.75173040000001,
+                           "lng":-73.9770971
+                        },
+                        "html_instructions":"Take exit <span class=\"location\">Park Ave & 42nd St at SE corner</span>",
+                        "polyline":{
+                           "points":"sivwFfrobMHr@"
+                        },
+                        "start_location":{
+                           "lat":40.751778,
+                           "lng":-73.976845
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"213 ft",
+                           "value":65
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":60
+                        },
+                        "end_location":{
+                           "lat":40.7522188,
+                           "lng":-73.9776153
+                        },
+                        "html_instructions":"Head <b>northwest</b> on <b>E 42nd St</b> toward <b>Pershing Square</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                        "polyline":{
+                           "points":"oivwFtsobMGPMh@KXEJAHGHCAYUCAGP"
+                        },
+                        "start_location":{
+                           "lat":40.7517599,
+                           "lng":-73.9770748
+                        },
+                        "travel_mode":"WALKING"
+                     }
+                  ],
+                  "travel_mode":"WALKING"
+               }
+            ],
+            "traffic_speed_entry":[
+
+            ],
+            "via_waypoint":[
+
+            ]
+         }
+      ],
+      "overview_polyline":{
+         "points":"ytnwFz`ubMHPDFDEJOACCIm@q@?A@CCkAgAJcDqCa@Uc@Oi@GU?gDUYEYIUMKIkYyVeLiJIGUMUMoDaAUKQKSMIGaMoJwGoE_M}JOO_@a@Yc@Yi@g@o@m@e@y@Y{OaCw@C}@@cAFaALi@@e@Ee@KQE{n@}a@gr@id@KKSWO[Ia@k@_EHr@EEGPYbAGTGHCA]WGP"
+      },
+      "summary":"",
+      "warnings":[
+         "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypoint_order":[
+
+      ]
+   },
+   {
+      "bounds":{
+         "northeast":{
+            "lat":40.7522188,
+            "lng":-73.9768448
+         },
+         "southwest":{
+            "lat":40.7124402,
+            "lng":-74.0049109
+         }
+      },
+      "copyrights":"Map data ©2023 Google",
+      "legs":[
+         {
+            "arrival_time":{
+               "text":"3:09\u202fPM",
+               "time_zone":"America/New_York",
+               "value":1677787757
+            },
+            "departure_time":{
+               "text":"2:58\u202fPM",
+               "time_zone":"America/New_York",
+               "value":1677787090
+            },
+            "distance":{
+               "text":"3.2 mi",
+               "value":5177
+            },
+            "duration":{
+               "text":"11 mins",
+               "value":667
+            },
+            "end_address":"89 E 42nd St, New York, NY 10017, USA",
+            "end_location":{
+               "lat":40.7522188,
+               "lng":-73.9776153
+            },
+            "start_address":"City Hall Park, Broadway &, Chambers St, New York, NY 10007, USA",
+            "start_location":{
+               "lat":40.7126097,
+               "lng":-74.0047836
+            },
+            "steps":[
+               {
+                  "distance":{
+                     "text":"371 ft",
+                     "value":113
+                  },
+                  "duration":{
+                     "text":"2 mins",
+                     "value":103
+                  },
+                  "end_location":{
+                     "lat":40.713066,
+                     "lng":-74.00412800000001
+                  },
+                  "html_instructions":"Walk to Brooklyn Bridge - City Hall",
+                  "polyline":{
+                     "points":"ytnwFz`ubMBDDJDFDEJOACCC?E_@c@KKA??A?A?A@A@CEgAgAJ"
+                  },
+                  "start_location":{
+                     "lat":40.7126097,
+                     "lng":-74.0047836
+                  },
+                  "steps":[
+                     {
+                        "distance":{
+                           "text":"59 ft",
+                           "value":18
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":13
+                        },
+                        "end_location":{
+                           "lat":40.7124402,
+                           "lng":-74.004802
+                        },
+                        "html_instructions":"Head <b>southwest</b> on <b>Centre St</b> toward <b>City Hall Pk Path</b>",
+                        "polyline":{
+                           "points":"ytnwFz`ubMBDDJDFDEJO"
+                        },
+                        "start_location":{
+                           "lat":40.7126097,
+                           "lng":-74.0047836
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"23 ft",
+                           "value":7
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":15
+                        },
+                        "end_location":{
+                           "lat":40.7124744,
+                           "lng":-74.004758
+                        },
+                        "html_instructions":"Cross the road",
+                        "polyline":{
+                           "points":"wsnwF~`ubMACCC"
+                        },
+                        "start_location":{
+                           "lat":40.7124402,
+                           "lng":-74.004802
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"26 ft",
+                           "value":8
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":6
+                        },
+                        "end_location":{
+                           "lat":40.7124698,
+                           "lng":-74.0047325
+                        },
+                        "html_instructions":"Turn <b>right</b> onto <b>Brooklyn Bridge Promenade</b>",
+                        "maneuver":"turn-right",
+                        "polyline":{
+                           "points":"}snwFv`ubM?E"
+                        },
+                        "start_location":{
+                           "lat":40.7124744,
+                           "lng":-74.004758
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"118 ft",
+                           "value":36
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":25
+                        },
+                        "end_location":{
+                           "lat":40.7126883,
+                           "lng":-74.00445049999999
+                        },
+                        "html_instructions":"Turn <b>left</b>",
+                        "maneuver":"turn-left",
+                        "polyline":{
+                           "points":"}snwFp`ubM_@c@KKA??A?A?A@A"
+                        },
+                        "start_location":{
+                           "lat":40.7124698,
+                           "lng":-74.0047325
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"13 ft",
+                           "value":4
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":3
+                        },
+                        "end_location":{
+                           "lat":40.7126823,
+                           "lng":-74.0044343
+                        },
+                        "html_instructions":"Turn <b>right</b>",
+                        "maneuver":"turn-right",
+                        "polyline":{
+                           "points":"iunwFx~tbM@C"
+                        },
+                        "start_location":{
+                           "lat":40.7126883,
+                           "lng":-74.00445049999999
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"131 ft",
+                           "value":40
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":41
+                        },
+                        "end_location":{
+                           "lat":40.713066,
+                           "lng":-74.00412800000001
+                        },
+                        "html_instructions":"Take entrance <span class=\"location\">Centre St & Chambers St at SE corner</span>",
+                        "polyline":{
+                           "points":"munwFl|tbMgAJ"
+                        },
+                        "start_location":{
+                           "lat":40.7127069,
+                           "lng":-74.00407349999999
+                        },
+                        "travel_mode":"WALKING"
+                     }
+                  ],
+                  "travel_mode":"WALKING"
+               },
+               {
+                  "distance":{
+                     "text":"3.1 mi",
+                     "value":4978
+                  },
+                  "duration":{
+                     "text":"8 mins",
+                     "value":480
+                  },
+                  "end_location":{
+                     "lat":40.751778,
+                     "lng":-73.976845
+                  },
+                  "html_instructions":"Subway towards Eastchester-Dyre Av",
+                  "polyline":{
+                     "points":"uwnwFx|tbM{CkCGEGEGEGEICGCIEIAGCIAICKAI?I?K?aDUE?GAE?EAEAEAGAECEAECECCCEAEEECqQuOyFcF_LaJACAAAACAAAAAAACAAAA?AAACC?AACACAAAAACAA?CAAAAAC?C?AAAACAA?yC{@C?ECEACAECCAEACCCCEACCCCECCCECaMoJwGoEyLwJEEIGEGGGGGGGGIEGEGGIEIGIEIEIEKIMGKIKKIIIKIKIKGMGMEMEOEMCOCQAkNwBMAM?M?MAO?O?M@O?Q@O@O@Q@QBQBQBK@I@I?I?K?I?GAIAIAIAIAIAGEIAGCyZiSaSsMyQsLm_@uVEEEECEEEEECECGCGCECECGAIAGAGCIg@uD"
+                  },
+                  "start_location":{
+                     "lat":40.713066,
+                     "lng":-74.00412800000001
+                  },
+                  "transit_details":{
+                     "arrival_stop":{
+                        "location":{
+                           "lat":40.751778,
+                           "lng":-73.976845
+                        },
+                        "name":"Grand Central - 42 St"
+                     },
+                     "arrival_time":{
+                        "text":"3:07\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677787674
+                     },
+                     "departure_stop":{
+                        "location":{
+                           "lat":40.713066,
+                           "lng":-74.00412800000001
+                        },
+                        "name":"Brooklyn Bridge - City Hall"
+                     },
+                     "departure_time":{
+                        "text":"2:59\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677787194
+                     },
+                     "headsign":"Eastchester-Dyre Av",
+                     "headway":420,
+                     "line":{
+                        "agencies":[
+                           {
+                              "name":"MTA New York City Transit",
+                              "phone":"1 (718) 330-1234",
+                              "url":"http://www.mta.info/"
+                           }
+                        ],
+                        "color":"#00933c",
+                        "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/us-ny-mta/5.png",
+                        "name":"5 Line",
+                        "short_name":"5",
+                        "text_color":"#ffffff",
+                        "vehicle":{
+                           "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                           "name":"Subway",
+                           "type":"SUBWAY"
+                        }
+                     },
+                     "num_stops":2
+                  },
+                  "travel_mode":"TRANSIT"
+               },
+               {
+                  "distance":{
+                     "text":"282 ft",
+                     "value":86
+                  },
+                  "duration":{
+                     "text":"1 min",
+                     "value":82
+                  },
+                  "end_location":{
+                     "lat":40.7522188,
+                     "lng":-73.9776153
+                  },
+                  "html_instructions":"Walk to 89 E 42nd St, New York, NY 10017, USA",
+                  "polyline":{
+                     "points":"sivwFfrobMHr@EEGPMh@KXEJAHGHCAYUCAGP"
+                  },
+                  "start_location":{
+                     "lat":40.751778,
+                     "lng":-73.976845
+                  },
+                  "steps":[
+                     {
+                        "distance":{
+                           "text":"69 ft",
+                           "value":21
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":22
+                        },
+                        "end_location":{
+                           "lat":40.75173040000001,
+                           "lng":-73.9770971
+                        },
+                        "html_instructions":"Take exit <span class=\"location\">Park Ave & 42nd St at SE corner</span>",
+                        "polyline":{
+                           "points":"sivwFfrobMHr@"
+                        },
+                        "start_location":{
+                           "lat":40.751778,
+                           "lng":-73.976845
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"213 ft",
+                           "value":65
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":60
+                        },
+                        "end_location":{
+                           "lat":40.7522188,
+                           "lng":-73.9776153
+                        },
+                        "html_instructions":"Head <b>northwest</b> on <b>E 42nd St</b> toward <b>Pershing Square</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                        "polyline":{
+                           "points":"oivwFtsobMGPMh@KXEJAHGHCAYUCAGP"
+                        },
+                        "start_location":{
+                           "lat":40.7517599,
+                           "lng":-73.9770748
+                        },
+                        "travel_mode":"WALKING"
+                     }
+                  ],
+                  "travel_mode":"WALKING"
+               }
+            ],
+            "traffic_speed_entry":[
+
+            ],
+            "via_waypoint":[
+
+            ]
+         }
+      ],
+      "overview_polyline":{
+         "points":"ytnwFz`ubMHPDFDEJOACCIm@q@?A@CCkAgAJcDqCa@Uc@Oi@GU?gDUYEYIUMKIkYyVeLiJIGUMUMoDaAUKQKSMIGaMoJwGoE_M}JOO_@a@Yc@Yi@g@o@m@e@y@Y{OaCw@C}@@cAFaALi@@e@Ee@KQE{n@}a@gr@id@KKSWO[Ia@k@_EHr@EEGPYbAGTGHCA]WGP"
+      },
+      "summary":"",
+      "warnings":[
+         "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypoint_order":[
+
+      ]
+   },
+   {
+      "bounds":{
+         "northeast":{
+            "lat":40.7522188,
+            "lng":-73.9768448
+         },
+         "southwest":{
+            "lat":40.7124402,
+            "lng":-74.0049109
+         }
+      },
+      "copyrights":"Map data ©2023 Google",
+      "legs":[
+         {
+            "arrival_time":{
+               "text":"3:12\u202fPM",
+               "time_zone":"America/New_York",
+               "value":1677787973
+            },
+            "departure_time":{
+               "text":"3:01\u202fPM",
+               "time_zone":"America/New_York",
+               "value":1677787276
+            },
+            "distance":{
+               "text":"3.2 mi",
+               "value":5177
+            },
+            "duration":{
+               "text":"12 mins",
+               "value":697
+            },
+            "end_address":"89 E 42nd St, New York, NY 10017, USA",
+            "end_location":{
+               "lat":40.7522188,
+               "lng":-73.9776153
+            },
+            "start_address":"City Hall Park, Broadway &, Chambers St, New York, NY 10007, USA",
+            "start_location":{
+               "lat":40.7126097,
+               "lng":-74.0047836
+            },
+            "steps":[
+               {
+                  "distance":{
+                     "text":"371 ft",
+                     "value":113
+                  },
+                  "duration":{
+                     "text":"2 mins",
+                     "value":103
+                  },
+                  "end_location":{
+                     "lat":40.713066,
+                     "lng":-74.00412800000001
+                  },
+                  "html_instructions":"Walk to Brooklyn Bridge - City Hall",
+                  "polyline":{
+                     "points":"ytnwFz`ubMBDDJDFDEJOACCC?E_@c@KKA??A?A?A@A@CEgAgAJ"
+                  },
+                  "start_location":{
+                     "lat":40.7126097,
+                     "lng":-74.0047836
+                  },
+                  "steps":[
+                     {
+                        "distance":{
+                           "text":"59 ft",
+                           "value":18
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":13
+                        },
+                        "end_location":{
+                           "lat":40.7124402,
+                           "lng":-74.004802
+                        },
+                        "html_instructions":"Head <b>southwest</b> on <b>Centre St</b> toward <b>City Hall Pk Path</b>",
+                        "polyline":{
+                           "points":"ytnwFz`ubMBDDJDFDEJO"
+                        },
+                        "start_location":{
+                           "lat":40.7126097,
+                           "lng":-74.0047836
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"23 ft",
+                           "value":7
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":15
+                        },
+                        "end_location":{
+                           "lat":40.7124744,
+                           "lng":-74.004758
+                        },
+                        "html_instructions":"Cross the road",
+                        "polyline":{
+                           "points":"wsnwF~`ubMACCC"
+                        },
+                        "start_location":{
+                           "lat":40.7124402,
+                           "lng":-74.004802
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"26 ft",
+                           "value":8
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":6
+                        },
+                        "end_location":{
+                           "lat":40.7124698,
+                           "lng":-74.0047325
+                        },
+                        "html_instructions":"Turn <b>right</b> onto <b>Brooklyn Bridge Promenade</b>",
+                        "maneuver":"turn-right",
+                        "polyline":{
+                           "points":"}snwFv`ubM?E"
+                        },
+                        "start_location":{
+                           "lat":40.7124744,
+                           "lng":-74.004758
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"118 ft",
+                           "value":36
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":25
+                        },
+                        "end_location":{
+                           "lat":40.7126883,
+                           "lng":-74.00445049999999
+                        },
+                        "html_instructions":"Turn <b>left</b>",
+                        "maneuver":"turn-left",
+                        "polyline":{
+                           "points":"}snwFp`ubM_@c@KKA??A?A?A@A"
+                        },
+                        "start_location":{
+                           "lat":40.7124698,
+                           "lng":-74.0047325
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"13 ft",
+                           "value":4
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":3
+                        },
+                        "end_location":{
+                           "lat":40.7126823,
+                           "lng":-74.0044343
+                        },
+                        "html_instructions":"Turn <b>right</b>",
+                        "maneuver":"turn-right",
+                        "polyline":{
+                           "points":"iunwFx~tbM@C"
+                        },
+                        "start_location":{
+                           "lat":40.7126883,
+                           "lng":-74.00445049999999
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"131 ft",
+                           "value":40
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":41
+                        },
+                        "end_location":{
+                           "lat":40.713066,
+                           "lng":-74.00412800000001
+                        },
+                        "html_instructions":"Take entrance <span class=\"location\">Centre St & Chambers St at SE corner</span>",
+                        "polyline":{
+                           "points":"munwFl|tbMgAJ"
+                        },
+                        "start_location":{
+                           "lat":40.7127069,
+                           "lng":-74.00407349999999
+                        },
+                        "travel_mode":"WALKING"
+                     }
+                  ],
+                  "travel_mode":"WALKING"
+               },
+               {
+                  "distance":{
+                     "text":"3.1 mi",
+                     "value":4978
+                  },
+                  "duration":{
+                     "text":"9 mins",
+                     "value":510
+                  },
+                  "end_location":{
+                     "lat":40.751778,
+                     "lng":-73.976845
+                  },
+                  "html_instructions":"Subway towards Woodlawn",
+                  "polyline":{
+                     "points":"uwnwFx|tbM{CkCGEGEGEGEICGCIEIAGCIAICKAI?I?K?aDUE?GAE?EAEAEAGAECEAECECCCEAEEECqQuOyFcF_LaJACAAAACAAAAAAACAAAA?AAACC?AACACAAAAACAA?CAAAAAC?C?AAAACAA?yC{@C?ECEACAECCAEACCCCEACCCCECCCECaMoJwGoEyLwJEEIGEGGGGGGGGIEGEGGIEIGIEIEIEKIMGKIKKIIIKIKIKGMGMEMEOEMCOCQAkNwBMAM?M?MAO?O?M@O?Q@O@O@Q@QBQBQBK@I@I?I?K?I?GAIAIAIAIAIAGEIAGCyZiSaSsMyQsLm_@uVEEEECEEEEECECGCGCECECGAIAGAGCIg@uD"
+                  },
+                  "start_location":{
+                     "lat":40.713066,
+                     "lng":-74.00412800000001
+                  },
+                  "transit_details":{
+                     "arrival_stop":{
+                        "location":{
+                           "lat":40.751778,
+                           "lng":-73.976845
+                        },
+                        "name":"Grand Central - 42 St"
+                     },
+                     "arrival_time":{
+                        "text":"3:11\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677787890
+                     },
+                     "departure_stop":{
+                        "location":{
+                           "lat":40.713066,
+                           "lng":-74.00412800000001
+                        },
+                        "name":"Brooklyn Bridge - City Hall"
+                     },
+                     "departure_time":{
+                        "text":"3:03\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677787380
+                     },
+                     "headsign":"Woodlawn",
+                     "headway":480,
+                     "line":{
+                        "agencies":[
+                           {
+                              "name":"MTA New York City Transit",
+                              "phone":"1 (718) 330-1234",
+                              "url":"http://www.mta.info/"
+                           }
+                        ],
+                        "color":"#00933c",
+                        "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/us-ny-mta/4.png",
+                        "name":"4 Line",
+                        "short_name":"4",
+                        "text_color":"#ffffff",
+                        "vehicle":{
+                           "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                           "name":"Subway",
+                           "type":"SUBWAY"
+                        }
+                     },
+                     "num_stops":2
+                  },
+                  "travel_mode":"TRANSIT"
+               },
+               {
+                  "distance":{
+                     "text":"282 ft",
+                     "value":86
+                  },
+                  "duration":{
+                     "text":"1 min",
+                     "value":82
+                  },
+                  "end_location":{
+                     "lat":40.7522188,
+                     "lng":-73.9776153
+                  },
+                  "html_instructions":"Walk to 89 E 42nd St, New York, NY 10017, USA",
+                  "polyline":{
+                     "points":"sivwFfrobMHr@EEGPMh@KXEJAHGHCAYUCAGP"
+                  },
+                  "start_location":{
+                     "lat":40.751778,
+                     "lng":-73.976845
+                  },
+                  "steps":[
+                     {
+                        "distance":{
+                           "text":"69 ft",
+                           "value":21
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":22
+                        },
+                        "end_location":{
+                           "lat":40.75173040000001,
+                           "lng":-73.9770971
+                        },
+                        "html_instructions":"Take exit <span class=\"location\">Park Ave & 42nd St at SE corner</span>",
+                        "polyline":{
+                           "points":"sivwFfrobMHr@"
+                        },
+                        "start_location":{
+                           "lat":40.751778,
+                           "lng":-73.976845
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"213 ft",
+                           "value":65
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":60
+                        },
+                        "end_location":{
+                           "lat":40.7522188,
+                           "lng":-73.9776153
+                        },
+                        "html_instructions":"Head <b>northwest</b> on <b>E 42nd St</b> toward <b>Pershing Square</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                        "polyline":{
+                           "points":"oivwFtsobMGPMh@KXEJAHGHCAYUCAGP"
+                        },
+                        "start_location":{
+                           "lat":40.7517599,
+                           "lng":-73.9770748
+                        },
+                        "travel_mode":"WALKING"
+                     }
+                  ],
+                  "travel_mode":"WALKING"
+               }
+            ],
+            "traffic_speed_entry":[
+
+            ],
+            "via_waypoint":[
+
+            ]
+         }
+      ],
+      "overview_polyline":{
+         "points":"ytnwFz`ubMHPDFDEJOACCIm@q@?A@CCkAgAJcDqCa@Uc@Oi@GU?gDUYEYIUMKIkYyVeLiJIGUMUMoDaAUKQKSMIGaMoJwGoE_M}JOO_@a@Yc@Yi@g@o@m@e@y@Y{OaCw@C}@@cAFaALi@@e@Ee@KQE{n@}a@gr@id@KKSWO[Ia@k@_EHr@EEGPYbAGTGHCA]WGP"
+      },
+      "summary":"",
+      "warnings":[
+         "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypoint_order":[
+
+      ]
+   }
+]

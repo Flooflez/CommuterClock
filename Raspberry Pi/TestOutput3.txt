@@ -1,0 +1,1648 @@
+[
+   {
+      "bounds":{
+         "northeast":{
+            "lat":40.903126,
+            "lng":-73.850616
+         },
+         "southwest":{
+            "lat":40.7124402,
+            "lng":-74.0049109
+         }
+      },
+      "copyrights":"Map data ©2023 Google",
+      "legs":[
+         {
+            "arrival_time":{
+               "text":"3:56\u202fPM",
+               "time_zone":"America/New_York",
+               "value":1677790610
+            },
+            "departure_time":{
+               "text":"3:11\u202fPM",
+               "time_zone":"America/New_York",
+               "value":1677787876
+            },
+            "distance":{
+               "text":"16.9 mi",
+               "value":27127
+            },
+            "duration":{
+               "text":"46 mins",
+               "value":2734
+            },
+            "end_address":"Wakefield - 241 St, The Bronx, NY 10470, USA",
+            "end_location":{
+               "lat":40.903126,
+               "lng":-73.850616
+            },
+            "start_address":"City Hall Park, Broadway &, Chambers St, New York, NY 10007, USA",
+            "start_location":{
+               "lat":40.7126097,
+               "lng":-74.0047836
+            },
+            "steps":[
+               {
+                  "distance":{
+                     "text":"371 ft",
+                     "value":113
+                  },
+                  "duration":{
+                     "text":"2 mins",
+                     "value":103
+                  },
+                  "end_location":{
+                     "lat":40.713066,
+                     "lng":-74.00412800000001
+                  },
+                  "html_instructions":"Walk to Brooklyn Bridge - City Hall",
+                  "polyline":{
+                     "points":"ytnwFz`ubMBDDJDFDEJOACCC?E_@c@KKA??A?A?A@A@CEgAgAJ"
+                  },
+                  "start_location":{
+                     "lat":40.7126097,
+                     "lng":-74.0047836
+                  },
+                  "steps":[
+                     {
+                        "distance":{
+                           "text":"59 ft",
+                           "value":18
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":13
+                        },
+                        "end_location":{
+                           "lat":40.7124402,
+                           "lng":-74.004802
+                        },
+                        "html_instructions":"Head <b>southwest</b> on <b>Centre St</b> toward <b>City Hall Pk Path</b>",
+                        "polyline":{
+                           "points":"ytnwFz`ubMBDDJDFDEJO"
+                        },
+                        "start_location":{
+                           "lat":40.7126097,
+                           "lng":-74.0047836
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"23 ft",
+                           "value":7
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":15
+                        },
+                        "end_location":{
+                           "lat":40.7124744,
+                           "lng":-74.004758
+                        },
+                        "html_instructions":"Cross the road",
+                        "polyline":{
+                           "points":"wsnwF~`ubMACCC"
+                        },
+                        "start_location":{
+                           "lat":40.7124402,
+                           "lng":-74.004802
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"26 ft",
+                           "value":8
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":6
+                        },
+                        "end_location":{
+                           "lat":40.7124698,
+                           "lng":-74.0047325
+                        },
+                        "html_instructions":"Turn <b>right</b> onto <b>Brooklyn Bridge Promenade</b>",
+                        "maneuver":"turn-right",
+                        "polyline":{
+                           "points":"}snwFv`ubM?E"
+                        },
+                        "start_location":{
+                           "lat":40.7124744,
+                           "lng":-74.004758
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"118 ft",
+                           "value":36
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":25
+                        },
+                        "end_location":{
+                           "lat":40.7126883,
+                           "lng":-74.00445049999999
+                        },
+                        "html_instructions":"Turn <b>left</b>",
+                        "maneuver":"turn-left",
+                        "polyline":{
+                           "points":"}snwFp`ubM_@c@KKA??A?A?A@A"
+                        },
+                        "start_location":{
+                           "lat":40.7124698,
+                           "lng":-74.0047325
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"13 ft",
+                           "value":4
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":3
+                        },
+                        "end_location":{
+                           "lat":40.7126823,
+                           "lng":-74.0044343
+                        },
+                        "html_instructions":"Turn <b>right</b>",
+                        "maneuver":"turn-right",
+                        "polyline":{
+                           "points":"iunwFx~tbM@C"
+                        },
+                        "start_location":{
+                           "lat":40.7126883,
+                           "lng":-74.00445049999999
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"131 ft",
+                           "value":40
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":41
+                        },
+                        "end_location":{
+                           "lat":40.713066,
+                           "lng":-74.00412800000001
+                        },
+                        "html_instructions":"Take entrance <span class=\"location\">Centre St & Chambers St at SE corner</span>",
+                        "polyline":{
+                           "points":"munwFl|tbMgAJ"
+                        },
+                        "start_location":{
+                           "lat":40.7127069,
+                           "lng":-74.00407349999999
+                        },
+                        "travel_mode":"WALKING"
+                     }
+                  ],
+                  "travel_mode":"WALKING"
+               },
+               {
+                  "distance":{
+                     "text":"8.4 mi",
+                     "value":13547
+                  },
+                  "duration":{
+                     "text":"3 mins",
+                     "value":158
+                  },
+                  "end_location":{
+                     "lat":40.8185709,
+                     "lng":-73.9273257
+                  },
+                  "html_instructions":"Subway towards Woodlawn",
+                  "polyline":{
+                     "points":"uwnwFx|tbMyCkCIEGEGEGEICICGEGAICIAICKAI?I?K?aDUE?GAE?EAEAEAGAECEACCGCCCEAEEECqQuOyFcF_LaJACAAAACAAAAAAACAAAA?AAACC?CAAAAACAAACAC?AAAACAA?C?AAAAAAC?yC{@A?GCEACAECCACAECCCEACCCCECCCECaMoJwGoEyLwJEEIGEGGGGGGGGIEGEGGIEIGIEIGICKIMGKIKKIIIKIKIKGMGMEMEMEOCOCQAkNwBOAK?M?OAM?O?M@Q?O@O@Q@O@QBQBQBK@I@K?I?I?G?IAIAIAIAIAGAIEIAEC}ZiS}RsM}QsLk_@uVEEEECEEEEECECGCGCECECGCI?GCGAIg@uDc@_DCKCKCIAKCGCICGEIEGCEEGEEGEEEEE{\\wT{`@wWab@qXga@}Wuc@yYse@g[y]mUsZeSqUmOma@eXECuWaQECECCCGEECECCEECECECCECCECCEECgUiTaFwEcCqBIGIEIEIEKGIEKEGEKEICKCIEIAKCKCcKqCICKCKCKEKCICKCKEIEMCICIEKEKEICsDuAA?c@OAJ"
+                  },
+                  "start_location":{
+                     "lat":40.713066,
+                     "lng":-74.00412800000001
+                  },
+                  "transit_details":{
+                     "arrival_stop":{
+                        "location":{
+                           "lat":40.8185709,
+                           "lng":-73.9273257
+                        },
+                        "name":"149 St - Grand Concourse"
+                     },
+                     "arrival_time":{
+                        "text":"3:15\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677788138
+                     },
+                     "departure_stop":{
+                        "location":{
+                           "lat":40.713066,
+                           "lng":-74.00412800000001
+                        },
+                        "name":"Brooklyn Bridge - City Hall"
+                     },
+                     "departure_time":{
+                        "text":"3:13\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677787980
+                     },
+                     "headsign":"Woodlawn",
+                     "headway":360,
+                     "line":{
+                        "agencies":[
+                           {
+                              "name":"MTA New York City Transit",
+                              "phone":"1 (718) 330-1234",
+                              "url":"http://www.mta.info/"
+                           }
+                        ],
+                        "color":"#00933c",
+                        "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/us-ny-mta/4.png",
+                        "name":"4 Line",
+                        "short_name":"4",
+                        "text_color":"#ffffff",
+                        "vehicle":{
+                           "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                           "name":"Subway",
+                           "type":"SUBWAY"
+                        }
+                     },
+                     "num_stops":7
+                  },
+                  "travel_mode":"TRANSIT"
+               },
+               {
+                  "distance":{
+                     "text":"177 ft",
+                     "value":54
+                  },
+                  "duration":{
+                     "text":"1 min",
+                     "value":55
+                  },
+                  "end_location":{
+                     "lat":40.818409,
+                     "lng":-73.92672
+                  },
+                  "html_instructions":"Walk to 149 St - Grand Concourse",
+                  "polyline":{
+                     "points":"akcxFx|ebM^yB"
+                  },
+                  "start_location":{
+                     "lat":40.8185709,
+                     "lng":-73.9273257
+                  },
+                  "steps":[
+                     {
+                        "distance":{
+                           "text":"177 ft",
+                           "value":54
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":55
+                        },
+                        "end_location":{
+                           "lat":40.818409,
+                           "lng":-73.92672
+                        },
+                        "polyline":{
+                           "points":"akcxFx|ebM^yB"
+                        },
+                        "start_location":{
+                           "lat":40.8185709,
+                           "lng":-73.9273257
+                        },
+                        "travel_mode":"WALKING"
+                     }
+                  ],
+                  "travel_mode":"WALKING"
+               },
+               {
+                  "distance":{
+                     "text":"8.3 mi",
+                     "value":13413
+                  },
+                  "duration":{
+                     "text":"34 mins",
+                     "value":2010
+                  },
+                  "end_location":{
+                     "lat":40.903126,
+                     "lng":-73.850616
+                  },
+                  "html_instructions":"Subway towards Wakefield-241 St",
+                  "polyline":{
+                     "points":"ajcxF~xebMjM_w@`AyEHc@Di@@eAAq@Gi@Ou@Qq@IWISSw@Kk@Eg@Am@@m@Bo@LcCNeDHmCDoABiA?w@?u@AsACw@Gi@Kk@U{@_AqByEuJm@sAe@qAoAsDsA{Dy@sB}AwDgOm^yJ}U]{@i@qAKQKQSQQMOGOGOAQAyA?_ZG]AWCWC_@Gw@Qk@Qs@[i@Y{_@uRi@Wg@Ye@[MMOOQUq@gAuF{KWm@So@Qi@Qu@Ow@M}@Ey@Es@CuACqACk@Ei@OeAOs@U{@]eASi@M[KSY]_@a@}AyASUKSESE[AW@UBQFONi@Ne@Rq@HYHc@D[D_@?_@@a@Ci@I_Au@{HIe@GUGSMWOSaB{BoGsI_AoAcAgAe@a@e@[k@Ws@WuCcAyAe@_DcAkAc@qAo@}FsCeBy@y@a@[M_@I[Ec@?kj@m@ur@q@{c@g@}ZYgAAc@C]Ea@Ga@MYMkDiBcWaNuLsFwXiMi_@{PsYuMu@e@c@_@_BoAqFqEcAy@aAu@mA_A]U{A}@qAs@k@[c@We@]mDsC"
+                  },
+                  "start_location":{
+                     "lat":40.818409,
+                     "lng":-73.92672
+                  },
+                  "transit_details":{
+                     "arrival_stop":{
+                        "location":{
+                           "lat":40.903126,
+                           "lng":-73.850616
+                        },
+                        "name":"Wakefield - 241 St"
+                     },
+                     "arrival_time":{
+                        "text":"3:56\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677790610
+                     },
+                     "departure_stop":{
+                        "location":{
+                           "lat":40.818409,
+                           "lng":-73.92672
+                        },
+                        "name":"149 St - Grand Concourse"
+                     },
+                     "departure_time":{
+                        "text":"3:23\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677788600
+                     },
+                     "headsign":"Wakefield-241 St",
+                     "headway":480,
+                     "line":{
+                        "agencies":[
+                           {
+                              "name":"MTA New York City Transit",
+                              "phone":"1 (718) 330-1234",
+                              "url":"http://www.mta.info/"
+                           }
+                        ],
+                        "color":"#ee352e",
+                        "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/us-ny-mta/2.png",
+                        "name":"2 Line",
+                        "short_name":"2",
+                        "text_color":"#ffffff",
+                        "vehicle":{
+                           "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                           "name":"Subway",
+                           "type":"SUBWAY"
+                        }
+                     },
+                     "num_stops":19
+                  },
+                  "travel_mode":"TRANSIT"
+               }
+            ],
+            "traffic_speed_entry":[
+
+            ],
+            "via_waypoint":[
+
+            ]
+         }
+      ],
+      "overview_polyline":{
+         "points":"ytnwFz`ubMHPDFDEJOACCIm@q@?A@CCkAgAJcDqCa@Uc@Oi@GU?gDUYEYIUMKIkYyVeLiJIGUMWMkDaAWKQKSMIGaMoJwGoE_M}JOO_@a@Yc@Yi@g@o@m@e@w@Y}OaCy@C}@@aAFaALi@@e@Ee@KOE{n@}a@ir@id@KKSWO[GQCOi@_Eg@kDMi@Sc@WYc_A{m@_iBilAcrDyaCm@c@SQs\\k[wC_Ci@Yi@Uk@OsMoD{Ai@cFiBAJ^yBjM_w@jA}FFoBI{Aa@gBSk@_@cBGuAD}A\\iHN}EBaCAiCKaBKk@U{@yGgNsAeDcDoJwCkHi]yy@Wc@e@_@_@Oa@Cy\\Gu@Ew@KcBc@}Au@ea@mSmAu@]]cA}AmGiMe@yAa@mBSwBIiCG}BUoBe@oBq@oBYo@y@_AqBoBQg@Gs@Dg@z@qCR}@J{@@aAMiB_AaJOi@]k@qJoM_AoAcAgAkA}@_Bo@oFiBkFgBoIcE_D{A{@W_AEa~A_By_AaAkBE_AM{@[o\\kQmf@}T}y@q_@u@e@c@_@qIaHeCoBkBuAmDqBoAs@sEqD"
+      },
+      "summary":"",
+      "warnings":[
+         "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypoint_order":[
+
+      ]
+   },
+   {
+      "bounds":{
+         "northeast":{
+            "lat":40.903126,
+            "lng":-73.850616
+         },
+         "southwest":{
+            "lat":40.7124402,
+            "lng":-74.0049109
+         }
+      },
+      "copyrights":"Map data ©2023 Google",
+      "legs":[
+         {
+            "arrival_time":{
+               "text":"4:01\u202fPM",
+               "time_zone":"America/New_York",
+               "value":1677790888
+            },
+            "departure_time":{
+               "text":"3:11\u202fPM",
+               "time_zone":"America/New_York",
+               "value":1677787876
+            },
+            "distance":{
+               "text":"16.9 mi",
+               "value":27233
+            },
+            "duration":{
+               "text":"50 mins",
+               "value":3012
+            },
+            "end_address":"Wakefield - 241 St, The Bronx, NY 10470, USA",
+            "end_location":{
+               "lat":40.903126,
+               "lng":-73.850616
+            },
+            "start_address":"City Hall Park, Broadway &, Chambers St, New York, NY 10007, USA",
+            "start_location":{
+               "lat":40.7126097,
+               "lng":-74.0047836
+            },
+            "steps":[
+               {
+                  "distance":{
+                     "text":"371 ft",
+                     "value":113
+                  },
+                  "duration":{
+                     "text":"2 mins",
+                     "value":103
+                  },
+                  "end_location":{
+                     "lat":40.713066,
+                     "lng":-74.00412800000001
+                  },
+                  "html_instructions":"Walk to Brooklyn Bridge - City Hall",
+                  "polyline":{
+                     "points":"ytnwFz`ubMBDDJDFDEJOACCC?E_@c@KKA??A?A?A@A@CEgAgAJ"
+                  },
+                  "start_location":{
+                     "lat":40.7126097,
+                     "lng":-74.0047836
+                  },
+                  "steps":[
+                     {
+                        "distance":{
+                           "text":"59 ft",
+                           "value":18
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":13
+                        },
+                        "end_location":{
+                           "lat":40.7124402,
+                           "lng":-74.004802
+                        },
+                        "html_instructions":"Head <b>southwest</b> on <b>Centre St</b> toward <b>City Hall Pk Path</b>",
+                        "polyline":{
+                           "points":"ytnwFz`ubMBDDJDFDEJO"
+                        },
+                        "start_location":{
+                           "lat":40.7126097,
+                           "lng":-74.0047836
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"23 ft",
+                           "value":7
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":15
+                        },
+                        "end_location":{
+                           "lat":40.7124744,
+                           "lng":-74.004758
+                        },
+                        "html_instructions":"Cross the road",
+                        "polyline":{
+                           "points":"wsnwF~`ubMACCC"
+                        },
+                        "start_location":{
+                           "lat":40.7124402,
+                           "lng":-74.004802
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"26 ft",
+                           "value":8
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":6
+                        },
+                        "end_location":{
+                           "lat":40.7124698,
+                           "lng":-74.0047325
+                        },
+                        "html_instructions":"Turn <b>right</b> onto <b>Brooklyn Bridge Promenade</b>",
+                        "maneuver":"turn-right",
+                        "polyline":{
+                           "points":"}snwFv`ubM?E"
+                        },
+                        "start_location":{
+                           "lat":40.7124744,
+                           "lng":-74.004758
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"118 ft",
+                           "value":36
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":25
+                        },
+                        "end_location":{
+                           "lat":40.7126883,
+                           "lng":-74.00445049999999
+                        },
+                        "html_instructions":"Turn <b>left</b>",
+                        "maneuver":"turn-left",
+                        "polyline":{
+                           "points":"}snwFp`ubM_@c@KKA??A?A?A@A"
+                        },
+                        "start_location":{
+                           "lat":40.7124698,
+                           "lng":-74.0047325
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"13 ft",
+                           "value":4
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":3
+                        },
+                        "end_location":{
+                           "lat":40.7126823,
+                           "lng":-74.0044343
+                        },
+                        "html_instructions":"Turn <b>right</b>",
+                        "maneuver":"turn-right",
+                        "polyline":{
+                           "points":"iunwFx~tbM@C"
+                        },
+                        "start_location":{
+                           "lat":40.7126883,
+                           "lng":-74.00445049999999
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"131 ft",
+                           "value":40
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":41
+                        },
+                        "end_location":{
+                           "lat":40.713066,
+                           "lng":-74.00412800000001
+                        },
+                        "html_instructions":"Take entrance <span class=\"location\">Centre St & Chambers St at SE corner</span>",
+                        "polyline":{
+                           "points":"munwFl|tbMgAJ"
+                        },
+                        "start_location":{
+                           "lat":40.7127069,
+                           "lng":-74.00407349999999
+                        },
+                        "travel_mode":"WALKING"
+                     }
+                  ],
+                  "travel_mode":"WALKING"
+               },
+               {
+                  "distance":{
+                     "text":"7.3 mi",
+                     "value":11702
+                  },
+                  "duration":{
+                     "text":"1 min",
+                     "value":0
+                  },
+                  "end_location":{
+                     "lat":40.80413799999999,
+                     "lng":-73.937592
+                  },
+                  "html_instructions":"Subway towards Woodlawn",
+                  "polyline":{
+                     "points":"uwnwFx|tbMyCkCIEGEGEGEICICGEGAICIAICKAI?I?K?aDUE?GAE?EAEAEAGAECEACCGCCCEAEEECqQuOyFcF_LaJACAAAACAAAAAAACAAAA?AAACC?CAAAAACAAACAC?AAAACAA?C?AAAAAAC?yC{@A?GCEACAECCACAECCCEACCCCECCCECaMoJwGoEyLwJEEIGEGGGGGGGGIEGEGGIEIGIEIGICKIMGKIKKIIIKIKIKGMGMEMEMEOCOCQAkNwBOAK?M?OAM?O?M@Q?O@O@Q@O@QBQBQBK@I@K?I?I?G?IAIAIAIAIAGAIEIAEC}ZiS}RsM}QsLk_@uVEEEECEEEEECECGCGCECECGCI?GCGAIg@uDc@_DCKCKCIAKCGCICGEIEGCEEGEEGEEEEE{\\wT{`@wWab@qXga@}Wuc@yYse@g[y]mUsZeSqUmOma@eX"
+                  },
+                  "start_location":{
+                     "lat":40.713066,
+                     "lng":-74.00412800000001
+                  },
+                  "transit_details":{
+                     "arrival_stop":{
+                        "location":{
+                           "lat":40.80413799999999,
+                           "lng":-73.937592
+                        },
+                        "name":"125 St"
+                     },
+                     "arrival_time":{
+                        "text":"3:13\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677787980
+                     },
+                     "departure_stop":{
+                        "location":{
+                           "lat":40.713066,
+                           "lng":-74.00412800000001
+                        },
+                        "name":"Brooklyn Bridge - City Hall"
+                     },
+                     "departure_time":{
+                        "text":"3:13\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677787980
+                     },
+                     "headsign":"Woodlawn",
+                     "headway":300,
+                     "line":{
+                        "agencies":[
+                           {
+                              "name":"MTA New York City Transit",
+                              "phone":"1 (718) 330-1234",
+                              "url":"http://www.mta.info/"
+                           }
+                        ],
+                        "color":"#00933c",
+                        "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/us-ny-mta/4.png",
+                        "name":"4 Line",
+                        "short_name":"4",
+                        "text_color":"#ffffff",
+                        "vehicle":{
+                           "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                           "name":"Subway",
+                           "type":"SUBWAY"
+                        }
+                     },
+                     "num_stops":5
+                  },
+                  "travel_mode":"TRANSIT"
+               },
+               {
+                  "distance":{
+                     "text":"1.7 mi",
+                     "value":2802
+                  },
+                  "duration":{
+                     "text":"8 mins",
+                     "value":480
+                  },
+                  "end_location":{
+                     "lat":40.816109,
+                     "lng":-73.917755
+                  },
+                  "html_instructions":"Subway towards Eastchester-Dyre Av",
+                  "polyline":{
+                     "points":"{p`xF||gbMECuWaQECECECEEECECCEECECCCEECCECCEECgUiTaFwEcCqBIGIEIEIEKGIEIEKEIEICKCIEKAICKCcKqCICKCKCKEKCICKCKEIEKCKCIEKEKEICGCG?E?G?E?E@EDEBEBEFEFCFEHEHCHCFEFCDEDCDEBEBCBEBEBC@EBE?C@E@M?ICKAGCGEGGEECGCIAIAK?M?M@OBOt@sEjM_w@"
+                  },
+                  "start_location":{
+                     "lat":40.80413799999999,
+                     "lng":-73.937592
+                  },
+                  "transit_details":{
+                     "arrival_stop":{
+                        "location":{
+                           "lat":40.816109,
+                           "lng":-73.917755
+                        },
+                        "name":"3 Av - 149 St"
+                     },
+                     "arrival_time":{
+                        "text":"3:24\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677788643
+                     },
+                     "departure_stop":{
+                        "location":{
+                           "lat":40.80413799999999,
+                           "lng":-73.937592
+                        },
+                        "name":"125 St"
+                     },
+                     "departure_time":{
+                        "text":"3:16\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677788163
+                     },
+                     "headsign":"Eastchester-Dyre Av",
+                     "headway":360,
+                     "line":{
+                        "agencies":[
+                           {
+                              "name":"MTA New York City Transit",
+                              "phone":"1 (718) 330-1234",
+                              "url":"http://www.mta.info/"
+                           }
+                        ],
+                        "color":"#00933c",
+                        "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/us-ny-mta/5.png",
+                        "name":"5 Line",
+                        "short_name":"5",
+                        "text_color":"#ffffff",
+                        "vehicle":{
+                           "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                           "name":"Subway",
+                           "type":"SUBWAY"
+                        }
+                     },
+                     "num_stops":3
+                  },
+                  "travel_mode":"TRANSIT"
+               },
+               {
+                  "distance":{
+                     "text":"7.8 mi",
+                     "value":12616
+                  },
+                  "duration":{
+                     "text":"31 mins",
+                     "value":1860
+                  },
+                  "end_location":{
+                     "lat":40.903126,
+                     "lng":-73.850616
+                  },
+                  "html_instructions":"Subway towards Wakefield-241 St",
+                  "polyline":{
+                     "points":"u{bxF~`dbM`AyEHc@Di@@eAAq@Gi@Ou@Qq@IWISSw@Kk@Eg@Am@@m@Bo@LcCNeDHmCDoABiA?w@?u@AsACw@Gi@Kk@U{@_AqByEuJm@sAe@qAoAsDsA{Dy@sB}AwDgOm^yJ}U]{@i@qAKQKQSQQMOGOGOAQAyA?_ZG]AWCWC_@Gw@Qk@Qs@[i@Y{_@uRi@Wg@Ye@[MMOOQUq@gAuF{KWm@So@Qi@Qu@Ow@M}@Ey@Es@CuACqACk@Ei@OeAOs@U{@]eASi@M[KSY]_@a@}AyASUKSESE[AW@UBQFONi@Ne@Rq@HYHc@D[D_@?_@@a@Ci@I_Au@{HIe@GUGSMWOSaB{BoGsI_AoAcAgAe@a@e@[k@Ws@WuCcAyAe@_DcAkAc@qAo@}FsCeBy@y@a@[M_@I[Ec@?kj@m@ur@q@{c@g@}ZYgAAc@C]Ea@Ga@MYMkDiBcWaNuLsFwXiMi_@{PsYuMu@e@c@_@_BoAqFqEcAy@aAu@mA_A]U{A}@qAs@k@[c@We@]mDsC"
+                  },
+                  "start_location":{
+                     "lat":40.816109,
+                     "lng":-73.917755
+                  },
+                  "transit_details":{
+                     "arrival_stop":{
+                        "location":{
+                           "lat":40.903126,
+                           "lng":-73.850616
+                        },
+                        "name":"Wakefield - 241 St"
+                     },
+                     "arrival_time":{
+                        "text":"4:01\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677790888
+                     },
+                     "departure_stop":{
+                        "location":{
+                           "lat":40.816109,
+                           "lng":-73.917755
+                        },
+                        "name":"3 Av - 149 St"
+                     },
+                     "departure_time":{
+                        "text":"3:30\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677789028
+                     },
+                     "headsign":"Wakefield-241 St",
+                     "headway":480,
+                     "line":{
+                        "agencies":[
+                           {
+                              "name":"MTA New York City Transit",
+                              "phone":"1 (718) 330-1234",
+                              "url":"http://www.mta.info/"
+                           }
+                        ],
+                        "color":"#ee352e",
+                        "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/us-ny-mta/2.png",
+                        "name":"2 Line",
+                        "short_name":"2",
+                        "text_color":"#ffffff",
+                        "vehicle":{
+                           "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                           "name":"Subway",
+                           "type":"SUBWAY"
+                        }
+                     },
+                     "num_stops":18
+                  },
+                  "travel_mode":"TRANSIT"
+               }
+            ],
+            "traffic_speed_entry":[
+
+            ],
+            "via_waypoint":[
+
+            ]
+         }
+      ],
+      "overview_polyline":{
+         "points":"ytnwFz`ubMHPDFDEJOACCIm@q@?A@CCkAgAJcDqCa@Uc@Oi@GU?gDUYEYIUMKIkYyVeLiJIGUMWMkDaAWKQKSMIGaMoJwGoE_M}JOO_@a@Yc@Yi@g@o@m@e@w@Y}OaCy@C}@@aAFaALi@@e@Ee@KOE{n@}a@ir@id@KKSWO[GQCOi@_Eg@kDMi@Sc@WYc_A{m@_iBilAgyCsoB}XaRi@c@i\\a[mCyBi@Yi@Wk@OsMoDyAg@e@MY@WTUb@Q^URSLUFWCSEOMIMESAY@]x@cFjM_w@`AyENmA?wBW_B[iA]kAQsA?{APsDXsHHyC?mBEkCSuAU{@_AqBgGiMuBeGsA{Dy@sBeRed@wKyWu@cB_@c@a@U_@IkBA}ZIo@GwAY_Bm@wc@aUs@i@a@e@q@gAuF{Kk@}Ac@_B]uBKmBGgDIuA_@yBs@aCa@eAe@q@}B{BSUKSKo@?m@Ja@|@{CN_AD_AAkA_A{JQ{@Uk@aMsPcAgAe@a@qAs@cMeEkAc@qAo@cJmEuAo@{@OadCgCe][aAIcAUeEwBcWaNuLsFay@e_@sYuMu@e@cCoBuHkGoCuByBsA}BoAiAu@mDsC"
+      },
+      "summary":"",
+      "warnings":[
+         "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypoint_order":[
+
+      ]
+   },
+   {
+      "bounds":{
+         "northeast":{
+            "lat":40.9063445,
+            "lng":-73.8502975
+         },
+         "southwest":{
+            "lat":40.7124402,
+            "lng":-74.0049109
+         }
+      },
+      "copyrights":"Map data ©2023 Google",
+      "legs":[
+         {
+            "arrival_time":{
+               "text":"3:59\u202fPM",
+               "time_zone":"America/New_York",
+               "value":1677790752
+            },
+            "departure_time":{
+               "text":"3:11\u202fPM",
+               "time_zone":"America/New_York",
+               "value":1677787876
+            },
+            "distance":{
+               "text":"16.2 mi",
+               "value":26096
+            },
+            "duration":{
+               "text":"48 mins",
+               "value":2876
+            },
+            "end_address":"Wakefield - 241 St, The Bronx, NY 10470, USA",
+            "end_location":{
+               "lat":40.9037121,
+               "lng":-73.8502975
+            },
+            "start_address":"City Hall Park, Broadway &, Chambers St, New York, NY 10007, USA",
+            "start_location":{
+               "lat":40.7126097,
+               "lng":-74.0047836
+            },
+            "steps":[
+               {
+                  "distance":{
+                     "text":"371 ft",
+                     "value":113
+                  },
+                  "duration":{
+                     "text":"2 mins",
+                     "value":103
+                  },
+                  "end_location":{
+                     "lat":40.713066,
+                     "lng":-74.00412800000001
+                  },
+                  "html_instructions":"Walk to Brooklyn Bridge - City Hall",
+                  "polyline":{
+                     "points":"ytnwFz`ubMBDDJDFDEJOACCC?E_@c@KKA??A?A?A@A@CEgAgAJ"
+                  },
+                  "start_location":{
+                     "lat":40.7126097,
+                     "lng":-74.0047836
+                  },
+                  "steps":[
+                     {
+                        "distance":{
+                           "text":"59 ft",
+                           "value":18
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":13
+                        },
+                        "end_location":{
+                           "lat":40.7124402,
+                           "lng":-74.004802
+                        },
+                        "html_instructions":"Head <b>southwest</b> on <b>Centre St</b> toward <b>City Hall Pk Path</b>",
+                        "polyline":{
+                           "points":"ytnwFz`ubMBDDJDFDEJO"
+                        },
+                        "start_location":{
+                           "lat":40.7126097,
+                           "lng":-74.0047836
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"23 ft",
+                           "value":7
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":15
+                        },
+                        "end_location":{
+                           "lat":40.7124744,
+                           "lng":-74.004758
+                        },
+                        "html_instructions":"Cross the road",
+                        "polyline":{
+                           "points":"wsnwF~`ubMACCC"
+                        },
+                        "start_location":{
+                           "lat":40.7124402,
+                           "lng":-74.004802
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"26 ft",
+                           "value":8
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":6
+                        },
+                        "end_location":{
+                           "lat":40.7124698,
+                           "lng":-74.0047325
+                        },
+                        "html_instructions":"Turn <b>right</b> onto <b>Brooklyn Bridge Promenade</b>",
+                        "maneuver":"turn-right",
+                        "polyline":{
+                           "points":"}snwFv`ubM?E"
+                        },
+                        "start_location":{
+                           "lat":40.7124744,
+                           "lng":-74.004758
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"118 ft",
+                           "value":36
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":25
+                        },
+                        "end_location":{
+                           "lat":40.7126883,
+                           "lng":-74.00445049999999
+                        },
+                        "html_instructions":"Turn <b>left</b>",
+                        "maneuver":"turn-left",
+                        "polyline":{
+                           "points":"}snwFp`ubM_@c@KKA??A?A?A@A"
+                        },
+                        "start_location":{
+                           "lat":40.7124698,
+                           "lng":-74.0047325
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"13 ft",
+                           "value":4
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":3
+                        },
+                        "end_location":{
+                           "lat":40.7126823,
+                           "lng":-74.0044343
+                        },
+                        "html_instructions":"Turn <b>right</b>",
+                        "maneuver":"turn-right",
+                        "polyline":{
+                           "points":"iunwFx~tbM@C"
+                        },
+                        "start_location":{
+                           "lat":40.7126883,
+                           "lng":-74.00445049999999
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"131 ft",
+                           "value":40
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":41
+                        },
+                        "end_location":{
+                           "lat":40.713066,
+                           "lng":-74.00412800000001
+                        },
+                        "html_instructions":"Take entrance <span class=\"location\">Centre St & Chambers St at SE corner</span>",
+                        "polyline":{
+                           "points":"munwFl|tbMgAJ"
+                        },
+                        "start_location":{
+                           "lat":40.7127069,
+                           "lng":-74.00407349999999
+                        },
+                        "travel_mode":"WALKING"
+                     }
+                  ],
+                  "travel_mode":"WALKING"
+               },
+               {
+                  "distance":{
+                     "text":"3.1 mi",
+                     "value":4979
+                  },
+                  "duration":{
+                     "text":"1 min",
+                     "value":0
+                  },
+                  "end_location":{
+                     "lat":40.751778,
+                     "lng":-73.976845
+                  },
+                  "html_instructions":"Subway towards Woodlawn",
+                  "polyline":{
+                     "points":"uwnwFx|tbMyCkCIEGEGEGEICICGEGAICIAICKAI?I?K?aDUE?GAE?EAEAEAGAECEACCGCCCEAEEECqQuOyFcF_LaJACAAAACAAAAAAACAAAA?AAACC?CAAAAACAAACAC?AAAACAA?C?AAAAAAC?yC{@A?GCEACAECCACAECCCEACCCCECCCECaMoJwGoEyLwJEEIGEGGGGGGGGIEGEGGIEIGIEIGICKIMGKIKKIIIKIKIKGMGMEMEMEOCOCQAkNwBOAK?M?OAM?O?M@Q?O@O@Q@O@QBQBQBK@I@K?I?I?G?IAIAIAIAIAGAIEIAEC}ZiS}RsM}QsLk_@uVEEEECEEEEECECGCGCECECGCI?GCGAIg@uD"
+                  },
+                  "start_location":{
+                     "lat":40.713066,
+                     "lng":-74.00412800000001
+                  },
+                  "transit_details":{
+                     "arrival_stop":{
+                        "location":{
+                           "lat":40.751778,
+                           "lng":-73.976845
+                        },
+                        "name":"Grand Central - 42 St"
+                     },
+                     "arrival_time":{
+                        "text":"3:13\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677787980
+                     },
+                     "departure_stop":{
+                        "location":{
+                           "lat":40.713066,
+                           "lng":-74.00412800000001
+                        },
+                        "name":"Brooklyn Bridge - City Hall"
+                     },
+                     "departure_time":{
+                        "text":"3:13\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677787980
+                     },
+                     "headsign":"Woodlawn",
+                     "headway":300,
+                     "line":{
+                        "agencies":[
+                           {
+                              "name":"MTA New York City Transit",
+                              "phone":"1 (718) 330-1234",
+                              "url":"http://www.mta.info/"
+                           }
+                        ],
+                        "color":"#00933c",
+                        "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/us-ny-mta/4.png",
+                        "name":"4 Line",
+                        "short_name":"4",
+                        "text_color":"#ffffff",
+                        "vehicle":{
+                           "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                           "name":"Subway",
+                           "type":"SUBWAY"
+                        }
+                     },
+                     "num_stops":2
+                  },
+                  "travel_mode":"TRANSIT"
+               },
+               {
+                  "distance":{
+                     "text":"495 ft",
+                     "value":151
+                  },
+                  "duration":{
+                     "text":"3 mins",
+                     "value":153
+                  },
+                  "end_location":{
+                     "lat":40.7527262,
+                     "lng":-73.9772294
+                  },
+                  "html_instructions":"Walk to Grand Central Terminal",
+                  "polyline":{
+                     "points":"sivwFfrobMHr@kB|A{AcA"
+                  },
+                  "start_location":{
+                     "lat":40.751778,
+                     "lng":-73.976845
+                  },
+                  "steps":[
+                     {
+                        "distance":{
+                           "text":"69 ft",
+                           "value":21
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":22
+                        },
+                        "end_location":{
+                           "lat":40.75173040000001,
+                           "lng":-73.9770971
+                        },
+                        "html_instructions":"Take exit <span class=\"location\">Park Ave & 42nd St at SE corner</span>",
+                        "polyline":{
+                           "points":"sivwFfrobMHr@"
+                        },
+                        "start_location":{
+                           "lat":40.751778,
+                           "lng":-73.976845
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"236 ft",
+                           "value":72
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":72
+                        },
+                        "end_location":{
+                           "lat":40.75227,
+                           "lng":-73.97757
+                        },
+                        "polyline":{
+                           "points":"iivwFzsobMkB|A"
+                        },
+                        "start_location":{
+                           "lat":40.75173040000001,
+                           "lng":-73.9770971
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"190 ft",
+                           "value":58
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":59
+                        },
+                        "end_location":{
+                           "lat":40.7527262,
+                           "lng":-73.9772294
+                        },
+                        "html_instructions":"Take entrance <span class=\"location\"></span>",
+                        "polyline":{
+                           "points":"ulvwFxvobM{AcA"
+                        },
+                        "start_location":{
+                           "lat":40.75227,
+                           "lng":-73.97757
+                        },
+                        "travel_mode":"WALKING"
+                     }
+                  ],
+                  "travel_mode":"WALKING"
+               },
+               {
+                  "distance":{
+                     "text":"12.6 mi",
+                     "value":20254
+                  },
+                  "duration":{
+                     "text":"29 mins",
+                     "value":1740
+                  },
+                  "end_location":{
+                     "lat":40.9063065,
+                     "lng":-73.8553395
+                  },
+                  "html_instructions":"Train towards North White Plains",
+                  "polyline":{
+                     "points":"qovwFttobMy@s@yIwFmf@w[]WcsBusAqXuQ{NsJoDyB{DiC{FwD}@m@oAy@{CsB}CsB{CsB}CqB_@WyHgF_Am@wI{F_@W}CsByAaAaC}AeGaEs@e@_@UyHeFoCiB_B_Ay@i@gFiDWQaEmCAAiBkAyAiAUM_FyCoDaCyAaAMIIIKIMIKKKKIIIIMOKO?AMQIMCCKUEKEGKUIUISAEEMGUAGa@sAOi@Oi@Oi@Qi@Ok@Oi@Oi@Oi@a@sA_@sAa@sAWw@M]IUIUKSEKEIMWAAMUIMEEOUQUQSOQQSKKIGQQSOKIKIUO]U}@k@{EwC_CyAw@g@qAy@sA{@QKe@[e@[e@]g@_@m@c@AA[Y]W[Y[Y]][[[[CAYYY[[[Y[Y][[Y]W[[_@g@m@e@o@e@o@e@o@c@s@[e@IMMSU_@e@w@KQWe@iCyEaCkEkGeLm@eAWc@qBoD_@o@qDwGm@gACEoBoDo@iAo@eAo@eA[e@[a@IMGISWSWUWIKSU[]][GG[Y][a@[]Y[SECYQAAYQ[S_@SYOOGWOoD{AcBy@aBy@cBu@MEIEmCqAA?_Ac@_@Sa@Q_@SUKmB}@a@QIEyAq@_@ScCiA}@a@EA_@Q{As@GE_@QiBy@{@a@eAe@_CiAQIo@[cBw@_@Oa@Sa@Q_@SYMwAo@s@]wAs@mB{@m@WwAq@_Bu@cAg@a@Q_@QcBy@ICw@_@a@SMGQIkAi@[O[Oa@ScCiAAAaCiAq@[qAm@gBy@}@a@yAs@ICaAe@aAe@_@QcBy@aAe@aAc@aAe@QIOGaCiAsAo@qAk@a@SYMiBaA_Ai@]So@c@uA_AWQ_@Ue@YYS}AcA_Am@}@m@]UwBuAe@]}B}ASO_BaAyA_Ac@Ym@c@g@]QMmAy@{@u@[WYW_A}@cBoB}@uAeCgFgC{FqAqCgAcCQa@}@sBKUoBkEm@sAc@aAk@oACGi@kAcA{BuB{EwCyG}@kBe@cA[k@k@_A_@e@]g@i@g@aA_Aa@[IGqBuAgAu@gAs@}AeAiCgBECqBsAkAu@y@g@}@k@{As@mAi@oBq@cA]w@Y}@[qBs@}@Wk@Q_@MkBm@kBq@OE{@YwC_A[MgBk@sAc@wCaAkDkAgEqAcEuAkDkAwDmAkDgAGCwC_AqAc@eBo@gAa@_Bq@aAc@kCsAgCmAq@a@KGsBmA]S{A_AWOUOKIgBgACASMWOo@a@]QeAo@]Q_Ak@i@YuA}@_Ai@MEg@W_@U_@Sm@[sCaBgEcCAAw@e@_E_C_CsAaAk@_Ai@WOkAs@s@c@uAy@wMuHe@YDS"
+                  },
+                  "start_location":{
+                     "lat":40.7527262,
+                     "lng":-73.9772294
+                  },
+                  "transit_details":{
+                     "arrival_stop":{
+                        "location":{
+                           "lat":40.9063065,
+                           "lng":-73.8553395
+                        },
+                        "name":"Wakefield"
+                     },
+                     "arrival_time":{
+                        "text":"3:51\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677790260
+                     },
+                     "departure_stop":{
+                        "location":{
+                           "lat":40.7527262,
+                           "lng":-73.9772294
+                        },
+                        "name":"Grand Central Terminal"
+                     },
+                     "departure_time":{
+                        "text":"3:22\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677788520
+                     },
+                     "headsign":"North White Plains",
+                     "line":{
+                        "agencies":[
+                           {
+                              "name":"Metro-North Railroad",
+                              "phone":"1 (212) 532-4900",
+                              "url":"http://www.mta.info/mnr"
+                           }
+                        ],
+                        "color":"#0061aa",
+                        "name":"Harlem",
+                        "text_color":"#ffffff",
+                        "vehicle":{
+                           "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png",
+                           "name":"Train",
+                           "type":"HEAVY_RAIL"
+                        }
+                     },
+                     "num_stops":8,
+                     "trip_short_name":"343"
+                  },
+                  "travel_mode":"TRANSIT"
+               },
+               {
+                  "distance":{
+                     "text":"0.4 mi",
+                     "value":599
+                  },
+                  "duration":{
+                     "text":"8 mins",
+                     "value":491
+                  },
+                  "end_location":{
+                     "lat":40.9037121,
+                     "lng":-73.8502975
+                  },
+                  "html_instructions":"Walk to Wakefield - 241 St, The Bronx, NY 10470, USA",
+                  "polyline":{
+                     "points":"motxFzzwaMhAv@@@HMFQ~@iCHUL_@Pe@HYDMDKVo@@EFO@EFMBMDKFQ^aAFQAe@J[N[FOVw@BB@CJUAAL_@@CH[\\_A@?@CHS@E?@Zy@FSDIVs@HWYW"
+                  },
+                  "start_location":{
+                     "lat":40.9063065,
+                     "lng":-73.8553395
+                  },
+                  "steps":[
+                     {
+                        "distance":{
+                           "text":"154 ft",
+                           "value":47
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":48
+                        },
+                        "end_location":{
+                           "lat":40.905937,
+                           "lng":-73.855621
+                        },
+                        "html_instructions":"Take exit <span class=\"location\"></span>",
+                        "polyline":{
+                           "points":"motxFzzwaMhAv@"
+                        },
+                        "start_location":{
+                           "lat":40.9063065,
+                           "lng":-73.8553395
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"0.3 mi",
+                           "value":522
+                        },
+                        "duration":{
+                           "text":"7 mins",
+                           "value":421
+                        },
+                        "end_location":{
+                           "lat":40.9035786,
+                           "lng":-73.8504221
+                        },
+                        "html_instructions":"Head <b>southeast</b> on <b>E 241st St</b>/<wbr/><b>Wakefield Ave</b><div style=\"font-size:0.9em\">Continue to follow E 241st St</div>",
+                        "polyline":{
+                           "points":"amtxFt|waMHMFQ~@iCHUL_@Pe@HYDMDKVo@@EFO@EFMBMDKFQ^aAFQAe@J[N[FOVw@BB@CJUAAL_@@CH[\\_A@?@CHS@E?@Zy@FSDIVs@HW"
+                        },
+                        "start_location":{
+                           "lat":40.9059307,
+                           "lng":-73.8556262
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"98 ft",
+                           "value":30
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":22
+                        },
+                        "end_location":{
+                           "lat":40.9037121,
+                           "lng":-73.8502975
+                        },
+                        "html_instructions":"Turn <b>left</b> onto <b>White Plains Rd</b>",
+                        "maneuver":"turn-left",
+                        "polyline":{
+                           "points":"k~sxFb|vaMYW"
+                        },
+                        "start_location":{
+                           "lat":40.9035786,
+                           "lng":-73.8504221
+                        },
+                        "travel_mode":"WALKING"
+                     }
+                  ],
+                  "travel_mode":"WALKING"
+               }
+            ],
+            "traffic_speed_entry":[
+
+            ],
+            "via_waypoint":[
+
+            ]
+         }
+      ],
+      "overview_polyline":{
+         "points":"ytnwFz`ubMHPDFDEJOACCIm@q@?A@CCkAgAJcDqCa@Uc@Oi@GU?gDUYEYIUMKIkYyVeLiJIGUMWMkDaAWKQKSMIGaMoJwGoE_M}JOO_@a@Yc@Yi@g@o@m@e@w@Y}OaCy@C}@@aAFaALi@@e@Ee@KOE{n@}a@ir@id@KKSWO[GQCOi@_EHr@kB|A{AcAy@s@yIwFkg@o\\ulCkfB{NsJoDyBwLaIgMoIsSeNkb@}XyI{FoFiD{NsJkBmAoBwA_FyCoDaCgBkAo@i@m@o@c@q@[m@a@eAq@_CaCqI{BsHm@}A[o@m@_AeAoA{@u@kAy@qMeI}E}CaD}BwAmAqBoBsAsAiBsBaCyCkCyDsAyBmDqGsM{UqJ_QsEeIkAkBe@o@eAqAwA{AcByAyAcAwA{@i@WgEkBwHoDyE{BkJmEkK_Fa_@_Q}y@i`@wFkCsB_AcCoA}A}@eCcBwBuAyFuDoHaFkG_Ey@k@mAy@{@u@u@o@_A}@cBoB}@uAeCgFyEmKcDoHmFqLgFkLuEeKaAoBkAeB]g@i@g@cB{A{B}AwJwG}FuD}@k@{As@mAi@oBq@{Bw@oDoAuFeBoIqCoJ_DsJ}CoJaDcOyEwDsAgDsAmEwByDoByFiDaGsDaE_C_CwAmAo@uC}AuKmGaMiHmFaD}NoIDShAv@JKfA{Cr@uBd@oAjAcDAe@J[Vk@Vw@BBLYJa@J_@j@wAd@qA\\}@HWYW"
+      },
+      "summary":"",
+      "warnings":[
+         "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypoint_order":[
+
+      ]
+   },
+   {
+      "bounds":{
+         "northeast":{
+            "lat":40.903126,
+            "lng":-73.850616
+         },
+         "southwest":{
+            "lat":40.7118556,
+            "lng":-74.0103531
+         }
+      },
+      "copyrights":"Map data ©2023 Google",
+      "legs":[
+         {
+            "arrival_time":{
+               "text":"4:11\u202fPM",
+               "time_zone":"America/New_York",
+               "value":1677791485
+            },
+            "departure_time":{
+               "text":"3:05\u202fPM",
+               "time_zone":"America/New_York",
+               "value":1677787547
+            },
+            "distance":{
+               "text":"18.0 mi",
+               "value":29043
+            },
+            "duration":{
+               "text":"1 hour 6 mins",
+               "value":3938
+            },
+            "end_address":"Wakefield - 241 St, The Bronx, NY 10470, USA",
+            "end_location":{
+               "lat":40.903126,
+               "lng":-73.850616
+            },
+            "start_address":"City Hall Park, Broadway &, Chambers St, New York, NY 10007, USA",
+            "start_location":{
+               "lat":40.7118556,
+               "lng":-74.00789309999999
+            },
+            "steps":[
+               {
+                  "distance":{
+                     "text":"0.1 mi",
+                     "value":204
+                  },
+                  "duration":{
+                     "text":"3 mins",
+                     "value":188
+                  },
+                  "end_location":{
+                     "lat":40.713051,
+                     "lng":-74.008812
+                  },
+                  "html_instructions":"Walk to Park Place",
+                  "polyline":{
+                     "points":"cpnwFhtubMEHA@QNMKO`@ABeA{@IEQOGGEHcApE"
+                  },
+                  "start_location":{
+                     "lat":40.7118556,
+                     "lng":-74.00789309999999
+                  },
+                  "steps":[
+                     {
+                        "distance":{
+                           "text":"82 ft",
+                           "value":25
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":18
+                        },
+                        "end_location":{
+                           "lat":40.7121457,
+                           "lng":-74.0081603
+                        },
+                        "html_instructions":"Head <b>northwest</b> on <b>Park Row</b> toward <b>Broadway</b>",
+                        "polyline":{
+                           "points":"cpnwFhtubMEHA@QNMKO`@AB"
+                        },
+                        "start_location":{
+                           "lat":40.7118556,
+                           "lng":-74.00789309999999
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"272 ft",
+                           "value":83
+                        },
+                        "duration":{
+                           "text":"1 min",
+                           "value":73
+                        },
+                        "end_location":{
+                           "lat":40.7126816,
+                           "lng":-74.0077088
+                        },
+                        "html_instructions":"Turn <b>right</b> onto <b>Broadway</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                        "maneuver":"turn-right",
+                        "polyline":{
+                           "points":"}qnwF~uubMeA{@IEQOGG"
+                        },
+                        "start_location":{
+                           "lat":40.7121457,
+                           "lng":-74.0081603
+                        },
+                        "travel_mode":"WALKING"
+                     },
+                     {
+                        "distance":{
+                           "text":"315 ft",
+                           "value":96
+                        },
+                        "duration":{
+                           "text":"2 mins",
+                           "value":97
+                        },
+                        "end_location":{
+                           "lat":40.713051,
+                           "lng":-74.008812
+                        },
+                        "html_instructions":"Take entrance <span class=\"location\">Park Pl & Broadway at NW corner</span>",
+                        "polyline":{
+                           "points":"munwFnsubMcApE"
+                        },
+                        "start_location":{
+                           "lat":40.7127074,
+                           "lng":-74.0077627
+                        },
+                        "travel_mode":"WALKING"
+                     }
+                  ],
+                  "travel_mode":"WALKING"
+               },
+               {
+                  "distance":{
+                     "text":"17.9 mi",
+                     "value":28839
+                  },
+                  "duration":{
+                     "text":"1 hour 3 mins",
+                     "value":3750
+                  },
+                  "end_location":{
+                     "lat":40.903126,
+                     "lng":-73.850616
+                  },
+                  "html_instructions":"Subway towards Wakefield-241 St",
+                  "polyline":{
+                     "points":"qwnwF`zubMmBrFELEJGJGFGDGDGBI@I?I?KCICKEKGKIcFqDGE}NsKEEEAGCEEEAGCEAGCEAGAGCE?GAGCG?wC[aUyBw`@wDiCSm@GUC[GUIUIo@WwAs@kRaJ}NcHe@Ug@Uk@[c@UuE{CaSqM_RyLsRkMuRkMw]gUyKiH{@k@WOWMYM]Ki@Qs@QyCu@}@S}@Ws@U}@_@m@Yk@]iCwAwCaBaB_AuAo@{@a@_A_@gA]uAa@}@QaAOeAMgE]gAK]AW@W?WBSBUFgA\\i@NWHWBQ@uA@kYTqC?ySWiAEcAIo@GiAMyB[wHwAgFmAm@Oo@Sa@Oc@Qc@S_@U}ByAyQeMaCmBoEoD_Aw@_^sUQIc[qS[YYYW[S[O]M[K_@E_@E_@Aa@@c@Bc@Fc@He@Je@~Jk[Pk@Pm@Lg@Fi@Bg@Ae@Ek@{B}VsBeRMgAM{@U{@Uo@Q]S]c@a@o@c@{QwLib@wXog@q\\{X{QWYW[S[S]Q_@M_@O_@K_@Ia@Ic@Ec@Ec@Ce@Ae@?g@GoV@_@@a@@a@@c@B_@Ba@Bc@B_@Dc@Da@Da@Da@Fc@Fa@Dc@|@eFt@sEjM_w@`AyEHc@Di@@eAAq@Gi@Ou@Qq@IWISSw@Kk@Eg@Am@@m@Bo@LcCNeDHmCDoABiA?w@?u@AsACw@Gi@Kk@U{@_AqByEuJm@sAe@qAoAsDsA{Dy@sB}AwDgOm^yJ}U]{@i@qAKQKQSQQMOGOGOAQAyA?_ZG]AWCWC_@Gw@Qk@Qs@[i@Y{_@uRi@Wg@Ye@[MMOOQUq@gAuF{KWm@So@Qi@Qu@Ow@M}@Ey@Es@CuACqACk@Ei@OeAOs@U{@]eASi@M[KSY]_@a@}AyASUKSESE[AW@UBQFONi@Ne@Rq@HYHc@D[D_@?_@@a@Ci@I_Au@{HIe@GUGSMWOSaB{BoGsI_AoAcAgAe@a@e@[k@Ws@WuCcAyAe@_DcAkAc@qAo@}FsCeBy@y@a@[M_@I[Ec@?kj@m@ur@q@{c@g@}ZYgAAc@C]Ea@Ga@MYMkDiBcWaNuLsFwXiMi_@{PsYuMu@e@c@_@_BoAqFqEcAy@aAu@mA_A]U{A}@qAs@k@[c@We@]mDsC"
+                  },
+                  "start_location":{
+                     "lat":40.713051,
+                     "lng":-74.008812
+                  },
+                  "transit_details":{
+                     "arrival_stop":{
+                        "location":{
+                           "lat":40.903126,
+                           "lng":-73.850616
+                        },
+                        "name":"Wakefield - 241 St"
+                     },
+                     "arrival_time":{
+                        "text":"4:11\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677791485
+                     },
+                     "departure_stop":{
+                        "location":{
+                           "lat":40.713051,
+                           "lng":-74.008812
+                        },
+                        "name":"Park Place"
+                     },
+                     "departure_time":{
+                        "text":"3:08\u202fPM",
+                        "time_zone":"America/New_York",
+                        "value":1677787735
+                     },
+                     "headsign":"Wakefield-241 St",
+                     "headway":360,
+                     "line":{
+                        "agencies":[
+                           {
+                              "name":"MTA New York City Transit",
+                              "phone":"1 (718) 330-1234",
+                              "url":"http://www.mta.info/"
+                           }
+                        ],
+                        "color":"#ee352e",
+                        "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/us-ny-mta/2.png",
+                        "name":"2 Line",
+                        "short_name":"2",
+                        "text_color":"#ffffff",
+                        "vehicle":{
+                           "icon":"//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                           "name":"Subway",
+                           "type":"SUBWAY"
+                        }
+                     },
+                     "num_stops":30
+                  },
+                  "travel_mode":"TRANSIT"
+               }
+            ],
+            "traffic_speed_entry":[
+
+            ],
+            "via_waypoint":[
+
+            ]
+         }
+      ],
+      "overview_polyline":{
+         "points":"cpnwFhtubMGJQNMKQd@oAaAYWiAzEyBlGOROJQDS?m@UuVuQYQ[K[GOE_D[yv@qHwD[q@Kk@SgCkAib@eS}C}Ak`Asn@c`Ain@o@]w@Y}Ac@wEiAqBm@kBy@oLwGqCqAgC}@sCs@gC]oGi@u@?o@Bi@JqBl@o@LgBBkYTqC?ySWiAEsBQcEi@wHwAgFmA}Ac@eAa@cAi@wU_PqI}G_Aw@_^sUu[{Su@s@k@w@]y@Q_AGaADgAPiAjKq\\b@yATqA@mAaCiXaCmTc@wBg@mAS]c@a@kS{MyjAiv@{X{QWYk@w@e@}@]_AUaAOgAIiAG}YHgCPiCXiC`C_OjM_w@`AyENmA?wBW_By@uCQsA?{Aj@gNHyC?mBEkCSuAU{@_AqBgGiMuBeGsA{Dy@sBeRed@wKyWu@cB_@c@a@U_@Ii^Ko@GwAY_Bm@ea@oSqAq@s@i@a@e@q@gAuF{Kk@}Ac@_B]uBKmBGgDIuA_@yBs@aCa@eAe@q@}B{BSUKSKo@?m@Ja@^oA\\kAN_AD_AAkA_A{JQ{@Uk@qBoCoIcLcAgAe@a@qAs@iE{AyFiBkAc@qAo@cJmEuAo@{@Ook@m@wuBuBaAIcAUeEwBcWaNuLsFay@e_@sYuMu@e@cCoBuHkGoCuByBsA}BoAiAu@mDsC"
+      },
+      "summary":"",
+      "warnings":[
+         "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypoint_order":[
+
+      ]
+   }
+]
