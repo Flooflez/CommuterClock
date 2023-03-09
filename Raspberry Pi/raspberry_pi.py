@@ -123,8 +123,6 @@ def main():
     print(user_id)
     wait_seconds, destination, origin, start_hour, end_hour, should_consider_car = get_document_data(user_id)
 
-    print(get_car_info(origin, destination, gmaps));
-
     # insert loop:
     # check button press
     # get_document_data
