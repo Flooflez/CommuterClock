@@ -59,21 +59,36 @@ def get_line_info(origin, destination, gmaps):
     directions_result = gmaps.directions(origin, destination, mode="transit", departure_time=datetime.now(),
                                          alternatives=False)
     for leg in directions_result[0]['legs']:
-        arrival_time_Unix = leg['arrival_time']['value']
         for step in leg['steps']:
             if step['travel_mode'] == 'TRANSIT':
                 transit_details = step['transit_details']
                 line = transit_details['line']
                 if line['vehicle']['type'] == 'SUBWAY':
+                    arrival_time_Unix = leg['arrival_time']['value']
                     minutes = round(
                         ((datetime.fromtimestamp(arrival_time_Unix) - datetime.now()).total_seconds()) / 60.0);
                     direction = check_uptown_downtown(transit_details['headsign'])
                     return line['short_name'], direction, minutes
 
 
-def update_display(origin, destination, gmaps):
+def get_car_info(origin, destination, gmaps):
+    directions_result = gmaps.directions(origin, destination, mode="driving", departure_time=datetime.now(),
+                                         alternatives=False)
+    duration_time_seconds = directions_result[0]['legs'][0]['duration']['value'];
+    traffic_duration_time_seconds = directions_result[0]['legs'][0]['duration_in_traffic']['value'];
+    minutes = round(max(duration_time_seconds,traffic_duration_time_seconds)/60)
+
+    return minutes;
+
+
+def update_display(origin, destination, gmaps, should_consider_car):
     line_num, direction, minutes = get_line_info(origin, destination, gmaps)
-    print(line_num, direction, minutes)
+    if should_consider_car:
+        car_minutes = get_car_info(origin, destination, gmaps)
+        if car_minutes < minutes:
+            print("Car, Minutes:", minutes)
+    else:
+        print(line_num, "Train, Direction:", direction, ", Minutes:", minutes)
 
 
 def get_document_data(user_id):
@@ -88,8 +103,9 @@ def get_document_data(user_id):
         origin = doc_dictionary['origin']
         start_hour = doc_dictionary['start_hour']
         end_hour = doc_dictionary['end_hour']
+        should_consider_car = doc_dictionary['should_consider_car']
 
-        return wait_seconds, destination, origin, start_hour, end_hour
+        return wait_seconds, destination, origin, start_hour, end_hour, should_consider_car
     else:
         raise Exception("User ID does not exist")
 
@@ -105,14 +121,18 @@ def main():
 
     user_id = get_user_id()
     print(user_id)
-    wait_seconds, destination, origin, start_hour, end_hour = get_document_data(user_id)
+    wait_seconds, destination, origin, start_hour, end_hour, should_consider_car = get_document_data(user_id)
 
-    #insert loop:
-    #check button press
-        #get_document_data
-    #update_display(origin, destination, gmaps)
-    #DO NOT CALL update_display UNLESS NECESSARY.
-    #wait
+    # insert loop:
+    # check button press
+    # get_document_data
+    # update_display(origin, destination, gmaps, should_consider_car)
+    # DO NOT CALL update_display UNLESS NECESSARY.
+    # wait
+
+    # Tasks:
+    # check delay/sudden line/time change
+    # check if driving faster
 
 
 main()

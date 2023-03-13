@@ -1,0 +1,274 @@
+[
+   {
+      "bounds":{
+         "northeast":{
+            "lat":40.6985385,
+            "lng":-73.9861167
+         },
+         "southwest":{
+            "lat":40.6949293,
+            "lng":-73.9946045
+         }
+      },
+      "copyrights":"Map data ©2023 Google",
+      "legs":[
+         {
+            "distance":{
+               "text":"0.7 mi",
+               "value":1157
+            },
+            "duration":{
+               "text":"7 mins",
+               "value":419
+            },
+            "duration_in_traffic":{
+               "text":"6 mins",
+               "value":345
+            },
+            "end_address":"2 MetroTech Center, Brooklyn, NY 11201, USA",
+            "end_location":{
+               "lat":40.6949293,
+               "lng":-73.9861167
+            },
+            "start_address":"55 Clark St, Brooklyn, NY 11201, USA",
+            "start_location":{
+               "lat":40.6976852,
+               "lng":-73.99385029999999
+            },
+            "steps":[
+               {
+                  "distance":{
+                     "text":"223 ft",
+                     "value":68
+                  },
+                  "duration":{
+                     "text":"1 min",
+                     "value":22
+                  },
+                  "end_location":{
+                     "lat":40.69789189999999,
+                     "lng":-73.9946045
+                  },
+                  "html_instructions":"Head <b>west</b> on <b>Clark St</b> toward <b>Hicks St</b>",
+                  "polyline":{
+                     "points":"qwkwFp|rbMg@tC"
+                  },
+                  "start_location":{
+                     "lat":40.6976852,
+                     "lng":-73.99385029999999
+                  },
+                  "travel_mode":"DRIVING"
+               },
+               {
+                  "distance":{
+                     "text":"249 ft",
+                     "value":76
+                  },
+                  "duration":{
+                     "text":"1 min",
+                     "value":37
+                  },
+                  "end_location":{
+                     "lat":40.6985385,
+                     "lng":-73.9942978
+                  },
+                  "html_instructions":"Turn <b>right</b> at the 1st cross street onto <b>Hicks St</b>",
+                  "maneuver":"turn-right",
+                  "polyline":{
+                     "points":"yxkwFfasbMaC{@"
+                  },
+                  "start_location":{
+                     "lat":40.69789189999999,
+                     "lng":-73.9946045
+                  },
+                  "travel_mode":"DRIVING"
+               },
+               {
+                  "distance":{
+                     "text":"466 ft",
+                     "value":142
+                  },
+                  "duration":{
+                     "text":"1 min",
+                     "value":53
+                  },
+                  "end_location":{
+                     "lat":40.6981049,
+                     "lng":-73.9927115
+                  },
+                  "html_instructions":"Turn <b>right</b> at the 1st cross street onto <b>Pineapple St</b>",
+                  "maneuver":"turn-right",
+                  "polyline":{
+                     "points":"{|kwFj_sbMVyAVwAf@kC"
+                  },
+                  "start_location":{
+                     "lat":40.6985385,
+                     "lng":-73.9942978
+                  },
+                  "travel_mode":"DRIVING"
+               },
+               {
+                  "distance":{
+                     "text":"253 ft",
+                     "value":77
+                  },
+                  "duration":{
+                     "text":"1 min",
+                     "value":27
+                  },
+                  "end_location":{
+                     "lat":40.6974579,
+                     "lng":-73.99302089999999
+                  },
+                  "html_instructions":"Turn <b>right</b> onto <b>Henry St</b>",
+                  "maneuver":"turn-right",
+                  "polyline":{
+                     "points":"czkwFlurbMbBn@ZL"
+                  },
+                  "start_location":{
+                     "lat":40.6981049,
+                     "lng":-73.9927115
+                  },
+                  "travel_mode":"DRIVING"
+               },
+               {
+                  "distance":{
+                     "text":"463 ft",
+                     "value":141
+                  },
+                  "duration":{
+                     "text":"1 min",
+                     "value":52
+                  },
+                  "end_location":{
+                     "lat":40.69703550000001,
+                     "lng":-73.99144009999999
+                  },
+                  "html_instructions":"Turn <b>left</b> at the 1st cross street onto <b>Clark St</b>",
+                  "maneuver":"turn-left",
+                  "polyline":{
+                     "points":"cvkwFjwrbMBQ?G@C@Id@kCd@cC?C"
+                  },
+                  "start_location":{
+                     "lat":40.6974579,
+                     "lng":-73.99302089999999
+                  },
+                  "travel_mode":"DRIVING"
+               },
+               {
+                  "distance":{
+                     "text":"256 ft",
+                     "value":78
+                  },
+                  "duration":{
+                     "text":"1 min",
+                     "value":28
+                  },
+                  "end_location":{
+                     "lat":40.6963421,
+                     "lng":-73.9912758
+                  },
+                  "html_instructions":"Turn <b>right</b> onto <b>Cadman Plaza W</b>",
+                  "maneuver":"turn-right",
+                  "polyline":{
+                     "points":"oskwFnmrbMf@GNCLALCXE\\G"
+                  },
+                  "start_location":{
+                     "lat":40.69703550000001,
+                     "lng":-73.99144009999999
+                  },
+                  "travel_mode":"DRIVING"
+               },
+               {
+                  "distance":{
+                     "text":"0.2 mi",
+                     "value":364
+                  },
+                  "duration":{
+                     "text":"2 mins",
+                     "value":126
+                  },
+                  "end_location":{
+                     "lat":40.6960638,
+                     "lng":-73.9871277
+                  },
+                  "html_instructions":"Turn <b>left</b> onto <b>Tillary St</b>",
+                  "maneuver":"turn-left",
+                  "polyline":{
+                     "points":"cokwFnlrbM\\KEU?m@Dg@?E@m@@m@?[@c@BiB?[?C@I?E?U?C@O?Y@S?Q@a@?o@@QBiC@S?O?M"
+                  },
+                  "start_location":{
+                     "lat":40.6963421,
+                     "lng":-73.9912758
+                  },
+                  "travel_mode":"DRIVING"
+               },
+               {
+                  "distance":{
+                     "text":"400 ft",
+                     "value":122
+                  },
+                  "duration":{
+                     "text":"1 min",
+                     "value":35
+                  },
+                  "end_location":{
+                     "lat":40.6949665,
+                     "lng":-73.9871666
+                  },
+                  "html_instructions":"Turn <b>right</b> onto <b>Jay St</b><div style=\"font-size:0.9em\">Closed Mon–Fri 7:00\u202fAM\u2009–\u20097:00\u202fPM</div>",
+                  "maneuver":"turn-right",
+                  "polyline":{
+                     "points":"kmkwFprqbMR?r@@P?F?T?J@\\?h@@L@"
+                  },
+                  "start_location":{
+                     "lat":40.6960638,
+                     "lng":-73.9871277
+                  },
+                  "travel_mode":"DRIVING"
+               },
+               {
+                  "distance":{
+                     "text":"292 ft",
+                     "value":89
+                  },
+                  "duration":{
+                     "text":"1 min",
+                     "value":39
+                  },
+                  "end_location":{
+                     "lat":40.6949293,
+                     "lng":-73.9861167
+                  },
+                  "html_instructions":"Turn <b>left</b> at the 1st cross street onto <b>Johnson St</b>/<wbr/><b>Tech Pl</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                  "maneuver":"turn-left",
+                  "polyline":{
+                     "points":"qfkwFxrqbMDmC@cA"
+                  },
+                  "start_location":{
+                     "lat":40.6949665,
+                     "lng":-73.9871666
+                  },
+                  "travel_mode":"DRIVING"
+               }
+            ],
+            "traffic_speed_entry":[
+
+            ],
+            "via_waypoint":[
+
+            ]
+         }
+      ],
+      "overview_polyline":{
+         "points":"qwkwFp|rbMg@tCaC{@n@qDf@kCbBn@ZLBQ@Kf@uCd@gCv@KrAS\\KEUDuAB}BDmDDyBFmF@c@?MR?dA@\\?`BDFqE"
+      },
+      "summary":"Tillary St",
+      "warnings":[
+
+      ],
+      "waypoint_order":[
+
+      ]
+   }
+]
