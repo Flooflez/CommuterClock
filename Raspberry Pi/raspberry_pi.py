@@ -56,6 +56,7 @@ scheduler = sched.scheduler(time.time, time.sleep)
 # Functions
 #
 
+# Reads user id from user_id.txt and returns it as string
 def get_user_id():
     reader = open("user_id.txt", "r")
     global user_id
@@ -64,6 +65,7 @@ def get_user_id():
     return user_id
 
 
+# Given a headsign, returns the direction
 # 1 for uptown, 0 for downtown, -1 for blank
 def check_uptown_downtown(headsign):
     if headsign in uptown_downtown_dictionary:
@@ -71,6 +73,8 @@ def check_uptown_downtown(headsign):
     return -1
 
 
+# Reads the public variables origin and destination
+# Returns line information in the form of line number/letter, direction number, minutes
 def get_line_info():
     directions_result = gmaps.directions(origin, destination, mode="transit", departure_time=datetime.now(),
                                          alternatives=False)
@@ -86,7 +90,7 @@ def get_line_info():
                     direction = check_uptown_downtown(transit_details['headsign'])
                     return line['short_name'], direction, minutes
 
-
+# returns how many minutes it will take to destination there by car
 def get_car_info():
     directions_result = gmaps.directions(origin, destination, mode="driving", departure_time=datetime.now(),
                                          alternatives=False)
@@ -96,7 +100,7 @@ def get_car_info():
 
     return minutes
 
-
+# will get the routing information and update the motors
 def update_display():
     #DEBUG ONLY
     print("Spin the thing")
@@ -110,7 +114,8 @@ def update_display():
     else:
         print(line_num, "Train, Direction:", direction, ", Minutes:", minutes)
 
-
+# makes a firebase call to get all variables
+# saves them to global variables
 def get_document_data():
     db = firestore.client()
     doc_ref = db.collection(u'settings').document(user_id)
@@ -132,6 +137,7 @@ def get_document_data():
         raise Exception("User ID does not exist")
 
 
+# Calls update_display and schedules the next update
 def perform_update():
     update_display()
     if datetime.now().time() < end_time:
@@ -144,7 +150,8 @@ def perform_update():
         scheduler.enterabs(scheduled_time, 1, perform_update, ())
 
 
-
+# called when the sync button is pressed, updates the user data variables
+# also restarts all scheduled events
 def sync_button_pressed():
     # clear scheduler
     list(map(scheduler.cancel, scheduler.queue))
@@ -153,6 +160,7 @@ def sync_button_pressed():
     schedule_start()
 
 
+# schedules the FIRST event, called once on start up.
 def schedule_start():
     if datetime.now().time() > end_time:
         # schedule for tomorrow
@@ -170,9 +178,8 @@ def schedule_start():
     scheduler.run()
 
 
-#
-# Init API
-#
+
+#main for organisation, doesn't actually need to be in a main
 def main():
     global user_id
     user_id = get_user_id()
@@ -187,5 +194,5 @@ def main():
     # Tasks:
     # check delay/sudden line/time change?
 
-
+# call main
 main()
