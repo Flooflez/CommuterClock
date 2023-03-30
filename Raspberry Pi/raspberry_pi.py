@@ -141,7 +141,7 @@ def get_document_data():
 def perform_update():
     update_display()
     if datetime.now().time() < end_time:
-        scheduler.enter(5, 1, perform_update, ())
+        scheduler.enter(wait_second, 1, perform_update, ())
         print("DEBUG: another update! " + str(datetime.now().time()))
     else:
         # done for today, set next event for tomorrow
