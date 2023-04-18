@@ -227,5 +227,5 @@ def main():
     # Tasks:
     # check delay/sudden line/time change?
 
-# call main
+# call main on start up
 main()
