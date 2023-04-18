@@ -1,6 +1,5 @@
 import RPi.GPIO as GPIO 
 from time import sleep
-import sys
 
 #pins = [6,5,1,7]
 train_pins = [2,3,14,15]#train line 
@@ -61,21 +60,26 @@ train_dict = {"A":1,
               "S":24,
               "CAR":25
               }
-
+#
 # Private methods (NOT CALLED FROM MAIN.PY)
+#
+
 def train_line_diff(curr_line, new_line):
     res = train_dict[new_line]-train_dict[curr_line]
     if(res >= 0 ):
         return res
     return 36 - train_dict[curr_line] + train_dict[new_line]
 
-#controllors for basic movement
+#Given a motor, its step length and the number of steps,
+#call the appropriate number of 'move' functions
 def step(num_of_steps, len_step, motor):
     print("starting to move...")
     for i in range(num_of_steps * len_step):
             move(motor)
     print("finished moving!")
-              
+
+# Moves a motor a small increment given an array of motor
+# Calling move 4100 times spins the motor one full rotation
 def move(motor):
     global arr1
     global arr2
@@ -84,7 +88,8 @@ def move(motor):
     arr2 = arrOUT
     GPIO.output(motor, arrOUT)
     sleep(delay)
-    
+
+#moves te line motorto the given train line
 def move_to_line(new_line):
     global current_train_line
     num_step = train_line_diff(current_train_line, new_line)
@@ -93,8 +98,8 @@ def move_to_line(new_line):
     step(num_step, full_rotation//36+1, train_pins)
     GPIO.output(train_pins, (0,0,0,0))
 
-
-def move_to_direction(direction): # yet to be implemented
+# moves the direction motor to display the correct direction
+def move_to_direction(direction):
     # note direction is already an int
     # 0 downtown, 1 uptown, 2 blank
     global curr_dir
@@ -106,14 +111,14 @@ def move_to_direction(direction): # yet to be implemented
     curr_dir = direction
     GPIO.output(dir_pins, (0,0,0,0))
     
-
+#mvoves the number motors to display the given digit number
 def move_numbers(new_number):
     move_tens(new_number//10)
     move_ones(new_number%10)
     global current_number
     current_number = new_number
     
-
+#moves the tens digit motor to the given digit
 def move_tens(new_digit):
     global current_number
     current_digit = current_number//10
@@ -124,7 +129,7 @@ def move_tens(new_digit):
     step(steps, full_rotation//10, tens_pins)
     GPIO.output(tens_pins, (0,0,0,0))
     
-
+#moves the ones digit motor to the given digit
 def move_ones(new_digit):
     global current_number
     current_digit = current_number%10
@@ -135,13 +140,18 @@ def move_ones(new_digit):
     step(steps, full_rotation//10, ones_pins)
     GPIO.output(ones_pins, (0,0,0,0))
  
- # functions to be called by main.py
+#
+# Public functions to be called by main.py
+#
 
+
+#spins motors to display given line, direction, and minutes
 def update_train(new_line, direction, minutes):
     move_to_line(new_line)
     move_to_direction(direction)
     move_numbers(minutes)
 
+#spins motors to display CAR symbol, empty direction and given minutes
 def update_car(minutes):
     move_to_line("CAR")
     move_to_direction(2)
@@ -154,49 +164,12 @@ def reset_all():
     move_to_direction(0) #default is downtown
     move_numbers(0)
 
+# cleans pins to prevent draining of power
 def clean_pins():
     GPIO.output(train_pins, (0,0,0,0))
     GPIO.output(tens_pins, (0,0,0,0))
     GPIO.output(ones_pins, (0,0,0,0))
     GPIO.output(dir_pins, (0,0,0,0))
-
-#
-# Debug Main
-#
-
-def test_main():
-    print("If you see this message, the test_main is running")
-    #we get a string of a single char
-    print("moving line")
-    move_to_line("L")
-    sleep(2)
-    print("\n====\nmoving number")
-    move_numbers(55)
-    sleep(2)
-    print("\n====\nmoving dir")
-    move_to_direction(2)
-
-
-    print("\nwaiting...\n")
-    sleep(2)
-
-    #move_to_number(9)
-
-    print("cleaning...")
-    #reset_all() 
-    clean_pins()
-    GPIO.cleanup()
-    GPIO.setmode(GPIO.BCM)
-
-
-    GPIO.setup(6, GPIO.OUT)
-    GPIO.setup(2, GPIO.OUT)
-    GPIO.setup(3, GPIO.OUT)
-    GPIO.output(6, 0)
-    GPIO.output(2, 0)
-    GPIO.output(3, 0)
-    print("program finished")
-    sys.exit()
 
 #if imported correctly should see this print
 print("Motor Controller Imported")
