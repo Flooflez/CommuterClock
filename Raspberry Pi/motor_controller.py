@@ -3,9 +3,9 @@ from time import sleep
 
 #pins = [6,5,1,7]
 train_pins = [2,3,14,15]#train line 
-tens_pins = [17,27,22,23]#tens digit number line
-ones_pins = [24,0,5,6] #ones digit number line
-dir_pins = [16,20,21,26] #direction line
+dir_pins = [17,27,22,23]#direction line
+tens_pins = [24,0,5,6] #tens digit number line
+ones_pins = [16,20,21,26] #ones digit number line
 delay = 0.0009
 full_rotation = 4100
 current_train_line = "A"
@@ -171,5 +171,4 @@ def clean_pins():
     GPIO.output(ones_pins, (0,0,0,0))
     GPIO.output(dir_pins, (0,0,0,0))
 
-#if imported correctly should see this print
-print("Motor Controller Imported")
+
