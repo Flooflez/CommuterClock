@@ -200,7 +200,7 @@ def main():
         while True:
             if GPIO.input(button_pin) == GPIO.HIGH:
                 sync_button_pressed()
-                time.sleep(3)
+                time.sleep(1)
             elif datetime.now() >= next_update_time:
                 update_display()
                 if datetime.now() < end_time: #still updating today
@@ -213,7 +213,7 @@ def main():
                     reset_all()
                 print("next update:",next_update_time.time())
             else:
-                time.sleep(5) #sleep for 5 seconds.
+                time.sleep(1) #sleep for 5 seconds.
                         
     except KeyboardInterrupt:
         print("Program ended with ctrl+C")
