@@ -1,27 +1,31 @@
 import RPi.GPIO as GPIO 
 from time import sleep
 
-#pins = [6,5,1,7]
-train_pins = [2,3,14,15]#train line 
-dir_pins = [17,27,22,23]#direction line
-tens_pins = [24,0,5,6] #tens digit number line
-ones_pins = [16,20,21,26] #ones digit number line
+
+#pins
+train_pins = [17,27,22,23]#train line 
+dir_pins = [10,9,24,25]#direction line
+tens_pins = [0,5,6,12] #tens digit number line
+ones_pins = [26,16,20,21] #ones digit number line
+#global vars
 delay = 0.0009
 full_rotation = 4100
 current_train_line = "A"
 current_number = 0
 curr_dir = 0
+arr1 = [1,1,0,0]
+arr2 = [0,1,0,0]
 
 # sets all pins to output
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
-
-
+#prepare pins for use for motor
 def pin_init(pins):
     for pin in pins:
         GPIO.setup(pin, GPIO.OUT)
 
+#Init sequence
 pin_init(train_pins)
 print("Setup pins #1 Train Pins")
 pin_init(tens_pins)
@@ -30,9 +34,6 @@ pin_init(ones_pins)
 print("Setup pins #3 Ones Pins")
 pin_init(dir_pins)
 print("Setup pins #4 Dir Pins")
-
-arr1 = [1,1,0,0]
-arr2 = [0,1,0,0]
 
 train_dict = {"A":1,
               "C":2,
@@ -171,4 +172,7 @@ def clean_pins():
     GPIO.output(ones_pins, (0,0,0,0))
     GPIO.output(dir_pins, (0,0,0,0))
 
+
+#if imported correctly should see this print
+print("Motor Controller Imported")
 
