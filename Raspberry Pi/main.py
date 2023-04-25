@@ -156,8 +156,12 @@ def get_document_data():
         
         print("Start time/End time:", start_time.time(), end_time.time())
         
-        if datetime.now() > start_time:
+        if datetime.now() > start_time and datetime.now() < end_time:
             next_update_time = datetime.now()
+        if datetime.now() > end_time:
+            start_time += timedelta(1) #add one day
+            end_time += timedelta(1) #add one day
+            next_update_time = start_time
         else:
             next_update_time = start_time
     else:
@@ -167,9 +171,7 @@ def get_document_data():
 # called when the sync button is pressed, updates the user data variables
 # also restarts all scheduled events
 def sync_button_pressed():
-    #print("Resetting display...")
-    #reset_all() #ENABLE WHEN INTEGRATING
-    
+
     print("Syncing...")
 
     get_document_data()
@@ -210,7 +212,7 @@ def main():
                     start_time += timedelta(1) #add one day
                     end_time += timedelta(1) #add one day
                     next_update_time = start_time
-                    reset_all()
+                    motor_controller.reset_all()
                 print("next update:",next_update_time.time())
             else:
                 time.sleep(1) #sleep for 5 seconds.
@@ -224,8 +226,8 @@ def main():
 
     print("done")
 
-    # Tasks:
-    # check delay/sudden line/time change?
+
 
 # call main on start up
 main()
+
