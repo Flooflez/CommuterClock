@@ -5,6 +5,7 @@ from google.cloud import firestore
 from firebase_admin import credentials
 from firebase_admin import firestore
 import googlemaps
+import googlemaps.exceptions
 from datetime import datetime, timedelta
 
 import sched
@@ -84,29 +85,38 @@ def check_uptown_downtown(headsign):
 # Reads the public variables origin and destination
 # Returns line information in the form of line number/letter, direction number, minutes
 def get_line_info():
-    directions_result = gmaps.directions(origin, destination, mode="transit", departure_time=datetime.now(),
-                                         alternatives=False)
-    for leg in directions_result[0]['legs']:
-        for step in leg['steps']:
-            if step['travel_mode'] == 'TRANSIT':
-                transit_details = step['transit_details']
-                line = transit_details['line']
-                if line['vehicle']['type'] == 'SUBWAY':
-                    arrival_time_Unix = leg['arrival_time']['value']
-                    minutes = round(
-                        ((datetime.fromtimestamp(arrival_time_Unix) - datetime.now()).total_seconds()) / 60.0);
-                    direction = check_uptown_downtown(transit_details['headsign'])
-                    return line['short_name'], direction, minutes
+    try:
+        directions_result = gmaps.directions(origin, destination, mode="transit", departure_time=datetime.now(),
+                                             alternatives=False)
+        for leg in directions_result[0]['legs']:
+            for step in leg['steps']:
+                if step['travel_mode'] == 'TRANSIT':
+                    transit_details = step['transit_details']
+                    line = transit_details['line']
+                    if line['vehicle']['type'] == 'SUBWAY':
+                        arrival_time_Unix = leg['departure_time']['value']
+                        minutes = round(
+                            ((datetime.fromtimestamp(arrival_time_Unix) - datetime.now()).total_seconds()) / 60.0);
+                        direction = check_uptown_downtown(transit_details['headsign'])
+                        return line['short_name'], direction, minutes
+    except googlemaps.exceptions.ApiError:
+        print("Error")
+        return "A", 2, 0
+    
 
 # returns how many minutes it will take to destination there by car
 def get_car_info():
-    directions_result = gmaps.directions(origin, destination, mode="driving", departure_time=datetime.now(),
-                                         alternatives=False)
-    duration_time_seconds = directions_result[0]['legs'][0]['duration']['value'];
-    traffic_duration_time_seconds = directions_result[0]['legs'][0]['duration_in_traffic']['value'];
-    minutes = round(max(duration_time_seconds, traffic_duration_time_seconds) / 60)
+    try:
+        directions_result = gmaps.directions(origin, destination, mode="driving", departure_time=datetime.now(),
+                                             alternatives=False)
+        duration_time_seconds = directions_result[0]['legs'][0]['duration']['value'];
+        traffic_duration_time_seconds = directions_result[0]['legs'][0]['duration_in_traffic']['value'];
+        minutes = round(max(duration_time_seconds, traffic_duration_time_seconds) / 60)
 
-    return minutes
+        return minutes
+    except googlemaps.exceptions.ApiError:
+        print("Error")
+        return 0
 
 # will get the routing information and update the motors
 def update_display():
@@ -222,12 +232,7 @@ def main():
         #reset all motors
         motor_controller.reset_all()
         motor_controller.clean_pins()
-        
-
     print("done")
-
-
 
 # call main on start up
 main()
-
