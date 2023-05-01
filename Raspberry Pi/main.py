@@ -54,8 +54,8 @@ uptown_downtown_dictionary = {
 global wait_seconds, destination, origin, start_hour, end_hour, should_consider_car, user_id
 global start_time, end_time  # parsed from strings
 global next_update_time
-gmaps = googlemaps.Client(key='AIzaSyCnGQ5oITGwl8B9TJckesr5X__rCnJ3klI')
-cred = credentials.Certificate("Private Key/commuter-clock-firebase-adminsdk-q5p6m-d316723468.json")
+gmaps = googlemaps.Client(key='')
+cred = credentials.Certificate("")
 firebase_admin.initialize_app(cred)
 scheduler = sched.scheduler(time.time, time.sleep)
 
