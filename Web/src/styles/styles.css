@@ -1,0 +1,262 @@
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.box{
+    background-size: 100% 100%;
+    heigth: 100vh;
+    width: 100vw;
+}
+
+@font-face{
+    font-family: ptsans;
+    src: url(/public/fonts/PT_Sans/PTSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: nanum;
+    src: url(/public/fonts/Nanum_Pen_Script/NanumPenScript-Regular.ttf);
+}
+
+.cont{  
+    display: flex;
+    flex-direction: column;
+    heigth: 100vh;
+    width: 100vw;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.headshots{
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+}
+
+.left{
+    flex: 1;          /* shorthand for: flex-grow: 1, flex-shrink: 1, flex-basis: 0 */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.center{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.video{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company{
+    display: inline-block;
+    width: 30vw;
+}
+
+.mission-container{
+    background-color: #E5E4E2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-header{
+    font-weight: bold;
+}
+
+a:link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.login{
+    margin-right: 15px;
+}
+
+.lines{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.vl {
+    border-left: 1.4px solid black;
+    height: 100px;
+}
+
+.add-container,
+.delete-container,
+.update-container,
+.settings-container,
+.view-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.settings-buttons{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.add-form,
+.update-form,
+.delete-form{
+    width: 30vw;
+    height: 70vw;
+}
+
+.login-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.members-container {
+    display: flex;
+}
+
+.profile {
+    margin: 1rem;
+    width: 95%;
+    height: 100%;
+    padding: .5rem 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 12px 32px 4px rgba(black, .2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+    
+    &:hover {
+        transform: translateY(-5px);
+    }
+
+    .title {
+        color: black;
+        margin: 1rem;
+        padding: .5rem 1rem;
+        border-radius: 50px;
+        transition: .2s;
+        cursor: pointer;
+
+        &--legendary {
+            background-color: #f4d03f;
+            &:hover {
+            box-shadow: 0 0 12px rgba(#f4d03f, .8);
+            }
+        }
+
+        &--epic {
+            background-color: black;
+            &:hover {
+            box-shadow: 0 0 12px rgba(#8c14fc, .8);
+            }
+        }
+
+        &--common {
+            background-color: #2ecc71;
+            &:hover {
+            box-shadow: 0 0 12px rgba(#2ecc71, .8);
+            }
+        }
+
+    }
+    
+    .desc {
+        text-align: center;
+    }
+}
+
+.profile img{
+    width:100%;
+    height: 100%;
+}
+
+p {
+    margin-top: 1rem;
+    color: #484848;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.active {
+    background-color: #00b16a;
+}
+
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
