@@ -32,24 +32,14 @@ const Home = () => {
                         <Button variant="dark" onClick={signup}>Sign Up</Button>
                     </div>
                 </div>
-                <br></br>
                 <div className="video">
-                    <video style={{display: 'flex', justifyContent: 'center', alignItems: 'center', maxWidth: '1000px'}}
-                    autoPlay loop muted>
-                            <source src={vid}></source>
-                    </video>
+                    <iframe title="product_ad" width="600" height="400" 
+                    src="https://www.youtube.com/embed/1_z6RN1Q_qg?autoplay=1" allow="autoplay">
+                    </iframe>
                 </div>
-                <br></br>
-                <br></br>
                 <div className="mission-container">
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <h4 className="mission-header">Our Mission</h4>
-                    <h2>Empowering people to use transportation more efficiently and sustainably</h2>
-                    <br></br>
-                    <br></br>
-                    <br></br>
+                    <h4 style={{ fontWeight: "bold", marginTop: "4rem"}}>Our Mission</h4>
+                    <h2 style={{ marginBottom: "4rem" }}>Empowering people to use transportation more efficiently and sustainably</h2>
                 </div>
                 <br></br>
                 <br></br>
