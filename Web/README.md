@@ -1,3 +1,5 @@
+Link to website is located [here](https://github.com/rilieo/commuter-clock-web)
+
 # Overview
 
 This website allows users to personalize their clock by adding, deleting, and editing a setting that fits with their daily schedule.
