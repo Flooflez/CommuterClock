@@ -1,4 +1,4 @@
-# [CommuterClock](https://rilieo.github.io/commuter-clock-web/)
+# CommuterClock
 Code for SLDP Commuter Clock
 
 By Max, Riley and Faith 
